@@ -3,7 +3,7 @@
  */
 
 //Image
-@image-rounded-border-radius: 8px;
+$image-rounded-border-radius: 8px;
 
 
 /*
@@ -14,7 +14,7 @@ img {
 	vertical-align: bottom;
 
 	&.rounded {
-		border-radius: @image-rounded-border-radius;
+		border-radius: $image-rounded-border-radius;
 	}
 
 	&.circle {
