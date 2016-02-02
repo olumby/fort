@@ -16,7 +16,7 @@
   ],
   "main": "dist/turret.css",
   "dependencies": {
-    "less": "2.2.0"
+    "node-sass": "3.4.2"
   },
   "license": "MIT",
   "ignore": [
