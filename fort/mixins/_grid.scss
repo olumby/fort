@@ -2,8 +2,8 @@
  * Grid
  */
 
-// Grid
-@mixin columns($selector-prefix: ".column") {
+// Loop
+@mixin loop($property, $selector-prefix) {
     @each $set in $list {
         $selector: ();
 
@@ -12,7 +12,18 @@
         }
 
         #{$selector} {
-            width: decimal-round(percentage(map-get($set, value)), 4);
+            #{$property}: decimal-round(percentage(map-get($set, value)), 4);
         }
     }
-    }
+}
+
+// Columns
+@mixin columns($selector-prefix: ".column") {
+    @include loop(width, $selector-prefix)
+}
+
+// Offsets
+
+@mixin grid-offset($selector-prefix: ".column-offset") {
+    @include loop(margin-left, $selector-prefix)
+}

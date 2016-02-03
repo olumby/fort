@@ -107,8 +107,8 @@ $list: $whole $half $third $quarter $fifth;
 
 @media #{$xsmall} {
 	[class*='column-'] {
-		width: $column-1;
+		width: 100%;
 	}
-	
+
 	@include columns('.column-xsmall');
 }
