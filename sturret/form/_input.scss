@@ -74,7 +74,7 @@ textarea {
 	// Input Disabled
 	&:disabled {
 		cursor: no-drop;
-		.input-styles($input-disabled-color, $input-disabled-background, $input-disabled-border);
+		@include input-styles($input-disabled-color, $input-disabled-background, $input-disabled-border);
 	}
 }
 
@@ -85,7 +85,7 @@ textarea {
 
 textarea {
 	max-width: 100%;
-	.transition(none);
+	@include transition(none);
 }
 	
 /*

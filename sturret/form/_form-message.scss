@@ -26,7 +26,7 @@ $form-message-info-color: $info;
 	margin: $form-message-margin;
 	font-size: $form-message-font-family;
 	font-weight: $form-message-font-weight;
-	.font-size($form-message-font-size);
+	@include font-size($form-message-font-size);
 	color: $form-message-color;
 	line-height: $form-message-line-height;
 	

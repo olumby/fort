@@ -16,7 +16,7 @@
 }
 
 //Placeholder
-.placeholder($color, $font-size, $font-family, $letter-spacing, $text-transform) {
+@mixin placeholder($color, $font-size, $font-family, $letter-spacing, $text-transform) {
 	&::-moz-placeholder {
 		@include placeholder-input($font-family, $font-size, $color, $letter-spacing, $text-transform);
 	}

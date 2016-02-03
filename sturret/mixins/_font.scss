@@ -19,14 +19,14 @@
 
 // Font Size
 @mixin font-size($rem) {
-	font-size: ~"${rem}rem";
+	font-size: "#{$rem}rem";
 }
 
 // Font Size Pixels
 @mixin font-size-pixel($rem) {
 	$pixels: ($rem * 10);
-	font-size: ~"${pixels}px"; 
-	font-size: ~"${rem}rem";
+	font-size: "#{$pixels}px"; 
+	font-size: "#{$rem}rem";
 }
 
 // Thin Font

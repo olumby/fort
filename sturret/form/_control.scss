@@ -95,10 +95,10 @@ $radio-border-radius: 50%;
 		}
 	
 		input:checked ~ .control-indicator:before {
-			.center();
+			@include center;
 			background: $white;
 			content: '';
-			.square(0.5em);
+			@include square(0.5em);
 			border-radius: $radio-border-radius;
 		}
 	}
@@ -110,7 +110,7 @@ $radio-border-radius: 50%;
 	top: 0;
 	left: 0;
 	display: block;
-	.square($control-indicator-size);
+	@include square($control-indicator-size);
 	line-height: 1rem;
 	color: $control-indicator-color;
 	text-align: center;
@@ -119,7 +119,7 @@ $radio-border-radius: 50%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	border: $control-indicator-border;
-	.user-select(none);
+	@include user-select(none);
 }
 
 // Control Label
@@ -128,9 +128,9 @@ $radio-border-radius: 50%;
 	margin: $control-label-margin;
 	font-family: $control-label-font-family;
 	font-weight: $control-label-font-weight;
-	.font-size($control-label-font-size);
+	@include font-size($control-label-font-size);
 	color: $control-label-color;
 	line-height: $control-label-line-height;
 	pointer-events: none;
-	.transition(color $transition-fast ease-in-out);
+	@include transition(color $transition-fast ease-in-out);
 }

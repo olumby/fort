@@ -5,7 +5,7 @@
 .row {
 	margin-left: -$gutter;
 	margin-right: -$gutter;
-	.clearfix();
+	@include clearfix;
 
 	&.no-gutter {
 		margin-left: 0;

@@ -18,7 +18,7 @@ $container-xlarge: 1680px;
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-	.clearfix();
+	@include clearfix;
 
 	@media #{$xlarge} {
 		padding-left: $gutter-xlarge;

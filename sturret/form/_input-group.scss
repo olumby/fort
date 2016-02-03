@@ -14,7 +14,7 @@
 
 	input {
 		margin: 0;
-		.border-radiuses($input-border-radius, 0, $input-border-radius, 0);
+		@include border-radiuses($input-border-radius, 0, $input-border-radius, 0);
 	}
 
 	// Undo Column Padding and Float
@@ -33,7 +33,7 @@
 // Input Group Button
 .input-group-button {
 	position: relative;
-	.font-size(0);
+	@include font-size(0);
 	width: 1%;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -43,7 +43,7 @@
 	> button,
 	> .button {
 		position: relative;
-		.border-radiuses(0, $button-border-radius, 0, $button-border-radius);
+		@include border-radiuses(0, $button-border-radius, 0, $button-border-radius);
 
 		+ .button {
 			margin-left: -1px;
@@ -74,11 +74,11 @@
 	
 	input[type="search"] {
 		padding-left: $input-search-border-radius;
-		.border-radiuses($input-search-border-radius, 0, $input-search-border-radius, 0);
+		@include border-radiuses($input-search-border-radius, 0, $input-search-border-radius, 0);
 	}
 	
 	button,
 	.button {
-		.border-radiuses(0, $input-search-border-radius, 0, $input-search-border-radius);
+		@include border-radiuses(0, $input-search-border-radius, 0, $input-search-border-radius);
 	}
 }
