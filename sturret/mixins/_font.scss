@@ -19,7 +19,7 @@
 
 // Font Size
 @mixin font-size($rem) {
-	font-size: "#{$rem}rem";
+	font-size: #{$rem}rem;
 }
 
 // Font Size Pixels

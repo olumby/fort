@@ -594,22 +594,22 @@ h6 small {
   color: #656D78; }
 
 h1 {
-  font-size: "3.6rem"; }
+  font-size: 3.6rem; }
 
 h2 {
-  font-size: "2.8rem"; }
+  font-size: 2.8rem; }
 
 h3 {
-  font-size: "1.8rem"; }
+  font-size: 1.8rem; }
 
 h4 {
-  font-size: "1.6rem"; }
+  font-size: 1.6rem; }
 
 h5 {
-  font-size: "1.4rem"; }
+  font-size: 1.4rem; }
 
 h6 {
-  font-size: "1.2rem"; }
+  font-size: 1.2rem; }
 
 /*
  * Definitions
@@ -621,7 +621,7 @@ p {
   margin: 20px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54;
   line-height: 1.35; }
 
@@ -635,7 +635,7 @@ p {
   margin: 0px 0px 20px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: "2rem";
+  font-size: 2rem;
   color: #434A54;
   line-height: 1.35; }
 
@@ -684,7 +684,7 @@ blockquote {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: "2rem";
+    font-size: 2rem;
     font-style: normal;
     line-height: 1.35;
     color: #434A54; }
@@ -692,7 +692,7 @@ blockquote {
     display: block;
     margin: 10px 0px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     font-style: normal;
     color: #434A54;
     text-align: right; }
@@ -708,7 +708,7 @@ blockquote {
   padding: 0px 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: "2rem";
+  font-size: 2rem;
   color: #434A54;
   border: solid #05BED5;
   border-width: 0px 0px 0px 5px; }
@@ -728,7 +728,7 @@ ol {
     margin: 10px 0px 10px 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #434A54; }
     ul li ul,
     ol li ul {
@@ -765,14 +765,14 @@ dt {
   margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54; }
 
 dd {
   margin: 0px 0px 20px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54; }
 
 /*
@@ -784,7 +784,7 @@ dd {
 code {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-weight: normal;
-  font-size: "1.2rem";
+  font-size: 1.2rem;
   color: #B2347E; }
 
 /*
@@ -826,7 +826,7 @@ kbd {
   padding: 4px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-weight: normal;
-  font-size: "1.2rem";
+  font-size: 1.2rem;
   color: #B2347E;
   background: #FCFCFE;
   border: 1px solid #E3E7EC; }
@@ -4131,7 +4131,7 @@ button,
   transition: all 0.2s ease-in-out;
   padding: 12px 16px;
   height: 40px;
-  font-size: "1.4rem";
+  font-size: 1.4rem;
   color: #434A54;
   background: #FFFFFF;
   border: 1px solid #CCD1D9; }
@@ -4284,27 +4284,27 @@ button.info,
 .button-xlarge {
   padding: 20px 30px;
   height: 65px;
-  font-size: "2.4rem"; }
+  font-size: 2.4rem; }
 
 .button-large {
   padding: 15px 25px;
   height: 50px;
-  font-size: "1.8rem"; }
+  font-size: 1.8rem; }
 
 .button-medium {
   padding: 12px 16px;
   height: 40px;
-  font-size: "1.4rem"; }
+  font-size: 1.4rem; }
 
 .button-small {
   padding: 8px 12px;
   height: 30px;
-  font-size: "1.3rem"; }
+  font-size: 1.3rem; }
 
 .button-xsmall {
   padding: 4px 8px;
   height: 20px;
-  font-size: "1rem"; }
+  font-size: 1rem; }
 
 /*
  * Button Group
@@ -4389,7 +4389,7 @@ figcaption {
   margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54;
   text-align: center; }
 
@@ -4479,7 +4479,7 @@ table {
     margin: 5px 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #434A54;
     text-align: left; }
 
@@ -4487,7 +4487,7 @@ th {
   padding: 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54;
   text-align: left;
   text-transform: none; }
@@ -4496,7 +4496,7 @@ td {
   padding: 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54;
   line-height: 1.35;
   vertical-align: middle; }
@@ -4541,7 +4541,7 @@ label {
   margin: 15px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: "1.3rem";
+  font-size: 1.3rem;
   color: #434A54;
   line-height: 1.35; }
 
@@ -4559,7 +4559,7 @@ fieldset {
   fieldset legend {
     display: inline-block;
     padding: 10px;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #656D78; }
 
 /*
@@ -4572,7 +4572,7 @@ fieldset {
   margin: 15px 0px;
   font-size: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: "1.2rem";
+  font-size: 1.2rem;
   color: #434A54;
   line-height: 1.35; }
   .form-message.error {
@@ -4615,7 +4615,7 @@ textarea {
   box-sizing: border-box;
   padding: 0 16px;
   height: 40px;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   color: #434A54;
   background: #FFFFFF;
   border: 1px solid #CCD1D9; }
@@ -4627,7 +4627,7 @@ textarea {
   input::-moz-placeholder,
   textarea::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4639,7 +4639,7 @@ textarea {
   input:-ms-input-placeholder,
   textarea:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4651,7 +4651,7 @@ textarea {
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4688,7 +4688,7 @@ textarea {
     border: none; }
   .input-inverse::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #FFFFFF;
     letter-spacing: 0px;
     text-transform: none;
@@ -4698,7 +4698,7 @@ textarea {
     color: fade(#FFFFFF, 25%); }
   .input-inverse:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #FFFFFF;
     letter-spacing: 0px;
     text-transform: none;
@@ -4708,7 +4708,7 @@ textarea {
     color: fade(#FFFFFF, 25%); }
   .input-inverse::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #FFFFFF;
     letter-spacing: 0px;
     text-transform: none;
@@ -4808,10 +4808,10 @@ textarea.info {
 .input-xlarge {
   padding: 0 30px;
   height: 65px;
-  font-size: "2.4rem"; }
+  font-size: 2.4rem; }
   .input-xlarge::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "2.4rem";
+    font-size: 2.4rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4821,7 +4821,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-xlarge:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "2.4rem";
+    font-size: 2.4rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4831,7 +4831,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-xlarge::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "2.4rem";
+    font-size: 2.4rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4843,10 +4843,10 @@ textarea.info {
 .input-large {
   padding: 0 25px;
   height: 50px;
-  font-size: "1.8rem"; }
+  font-size: 1.8rem; }
   .input-large::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.8rem";
+    font-size: 1.8rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4856,7 +4856,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-large:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.8rem";
+    font-size: 1.8rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4866,7 +4866,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-large::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.8rem";
+    font-size: 1.8rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4878,10 +4878,10 @@ textarea.info {
 .input-medium {
   padding: 0 16px;
   height: 40px;
-  font-size: "1.6rem"; }
+  font-size: 1.6rem; }
   .input-medium::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4891,7 +4891,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-medium:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4901,7 +4901,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-medium::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4913,10 +4913,10 @@ textarea.info {
 .input-small {
   padding: 0 12px;
   height: 30px;
-  font-size: "1.3rem"; }
+  font-size: 1.3rem; }
   .input-small::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.3rem";
+    font-size: 1.3rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4926,7 +4926,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-small:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.3rem";
+    font-size: 1.3rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4936,7 +4936,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-small::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1.3rem";
+    font-size: 1.3rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4948,10 +4948,10 @@ textarea.info {
 .input-xsmall {
   padding: 0 8px;
   height: 20px;
-  font-size: "1rem"; }
+  font-size: 1rem; }
   .input-xsmall::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1rem";
+    font-size: 1rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4961,7 +4961,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-xsmall:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1rem";
+    font-size: 1rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -4971,7 +4971,7 @@ textarea.info {
     color: fade(fade(#434A54, 50%), 25%); }
   .input-xsmall::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: "1rem";
+    font-size: 1rem;
     color: fade(#434A54, 50%);
     letter-spacing: 0px;
     text-transform: none;
@@ -5004,7 +5004,7 @@ textarea.info {
 
 .input-group-button {
   position: relative;
-  font-size: "0rem";
+  font-size: 0rem;
   width: 1%;
   white-space: nowrap;
   vertical-align: middle; }
@@ -5046,35 +5046,35 @@ textarea.info {
   padding: 20px 30px;
   height: 65px;
   min-width: 65px;
-  font-size: "2.4rem"; }
+  font-size: 2.4rem; }
 
 .input-group-button-large > button,
 .input-group-button-large > .button {
   padding: 15px 25px;
   height: 50px;
   min-width: 50px;
-  font-size: "1.8rem"; }
+  font-size: 1.8rem; }
 
 .input-group-button-medium > button,
 .input-group-button-medium > .button {
   padding: 12px 16px;
   height: 40px;
   min-width: 40px;
-  font-size: "1.6rem"; }
+  font-size: 1.6rem; }
 
 .input-group-button-small > button,
 .input-group-button-small > .button {
   padding: 8px 12px;
   height: 30px;
   min-width: 30px;
-  font-size: "1.3rem"; }
+  font-size: 1.3rem; }
 
 .input-group-button-xsmall > button,
 .input-group-button-xsmall > .button {
   padding: 4px 8px;
   height: 20px;
   min-width: 20px;
-  font-size: "1rem"; }
+  font-size: 1rem; }
 
 /*
  * Definitions
@@ -5145,7 +5145,7 @@ textarea.info {
   margin: 0px 0px 0px 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: "1.3rem";
+  font-size: 1.3rem;
   color: #434A54;
   line-height: 1.35;
   pointer-events: none;
@@ -5173,7 +5173,7 @@ select {
     line-height: auto;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: "1.6rem";
+    font-size: 1.6rem;
     color: #434A54;
     cursor: pointer;
     outline: 0;
@@ -5252,31 +5252,31 @@ select {
 .select-xlarge select {
   padding: 0 30px;
   height: 65px;
-  font-size: "2.4rem";
+  font-size: 2.4rem;
   line-height: 65px; }
 
 .select-large select {
   padding: 0 25px;
   height: 50px;
-  font-size: "1.8rem";
+  font-size: 1.8rem;
   line-height: 50px; }
 
 .select-medium select {
   padding: 0 16px;
   height: 40px;
-  font-size: "1.6rem";
+  font-size: 1.6rem;
   line-height: 40px; }
 
 .select-small select {
   padding: 0 12px;
   height: 30px;
-  font-size: "1.3rem";
+  font-size: 1.3rem;
   line-height: 30px; }
 
 .select-xsmall select {
   padding: 0 8px;
   height: 20px;
-  font-size: "1rem";
+  font-size: 1rem;
   line-height: 20px; }
 
 /*
@@ -5927,19 +5927,19 @@ select {
  * Font Size
  */
 .font-size-xlarge {
-  font-size: "2.4rem"; }
+  font-size: 2.4rem; }
 
 .font-size-large {
-  font-size: "1.8rem"; }
+  font-size: 1.8rem; }
 
 .font-size-medium {
-  font-size: "1.6rem"; }
+  font-size: 1.6rem; }
 
 .font-size-small {
-  font-size: "1.3rem"; }
+  font-size: 1.3rem; }
 
 .font-size-xsmall {
-  font-size: "1rem"; }
+  font-size: 1rem; }
 
 /*
  * Text
