@@ -414,6 +414,9 @@ th {
  * url: https://gist.github.com/jayj/4012969
  */
 /*
+ * Grid
+ */
+/*
  * Base
  */
 /*
@@ -1045,20 +1048,85 @@ kbd {
       padding-left: 15px;
       padding-right: 15px; } }
 
-.column-1 {
+.column-1, .column-2-2, .column-3-3, .column-4-4, .column-5-5, .column-6-6, .column-8-8, .column-10-10, .column-12-12 {
   width: 100%; }
 
 .column-1-2, .column-2-4, .column-3-6, .column-4-8, .column-5-10, .column-6-12 {
-  content: "Hell0";
   width: 50%; }
 
+.column-1-3, .column-2-6, .column-3-9, .column-4-12 {
+  width: 33.3333%; }
+
 .column-1-4, .column-2-8, .column-3-12 {
-  content: "Hell0";
   width: 25%; }
 
-.column-1-3, .column-2-6, .column-3-9, .column-4-12 {
-  content: "Hell0";
-  width: 33.3333%; }
+.column-1-5, .column-2-10 {
+  width: 20%; }
+
+/*
+ * Column Media Query Classes
+ */
+@media (min-width: 1680px) {
+  .column-xlarge-1, .column-xlarge-2-2, .column-xlarge-3-3, .column-xlarge-4-4, .column-xlarge-5-5, .column-xlarge-6-6, .column-xlarge-8-8, .column-xlarge-10-10, .column-xlarge-12-12 {
+    width: 100%; }
+  .column-xlarge-1-2, .column-xlarge-2-4, .column-xlarge-3-6, .column-xlarge-4-8, .column-xlarge-5-10, .column-xlarge-6-12 {
+    width: 50%; }
+  .column-xlarge-1-3, .column-xlarge-2-6, .column-xlarge-3-9, .column-xlarge-4-12 {
+    width: 33.3333%; }
+  .column-xlarge-1-4, .column-xlarge-2-8, .column-xlarge-3-12 {
+    width: 25%; }
+  .column-xlarge-1-5, .column-xlarge-2-10 {
+    width: 20%; } }
+
+@media (min-width: 1280px) and (max-width: 1679px) {
+  .column-large-1, .column-large-2-2, .column-large-3-3, .column-large-4-4, .column-large-5-5, .column-large-6-6, .column-large-8-8, .column-large-10-10, .column-large-12-12 {
+    width: 100%; }
+  .column-large-1-2, .column-large-2-4, .column-large-3-6, .column-large-4-8, .column-large-5-10, .column-large-6-12 {
+    width: 50%; }
+  .column-large-1-3, .column-large-2-6, .column-large-3-9, .column-large-4-12 {
+    width: 33.3333%; }
+  .column-large-1-4, .column-large-2-8, .column-large-3-12 {
+    width: 25%; }
+  .column-large-1-5, .column-large-2-10 {
+    width: 20%; } }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .column-medium-1, .column-medium-2-2, .column-medium-3-3, .column-medium-4-4, .column-medium-5-5, .column-medium-6-6, .column-medium-8-8, .column-medium-10-10, .column-medium-12-12 {
+    width: 100%; }
+  .column-medium-1-2, .column-medium-2-4, .column-medium-3-6, .column-medium-4-8, .column-medium-5-10, .column-medium-6-12 {
+    width: 50%; }
+  .column-medium-1-3, .column-medium-2-6, .column-medium-3-9, .column-medium-4-12 {
+    width: 33.3333%; }
+  .column-medium-1-4, .column-medium-2-8, .column-medium-3-12 {
+    width: 25%; }
+  .column-medium-1-5, .column-medium-2-10 {
+    width: 20%; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .column-small-1, .column-small-2-2, .column-small-3-3, .column-small-4-4, .column-small-5-5, .column-small-6-6, .column-small-8-8, .column-small-10-10, .column-small-12-12 {
+    width: 100%; }
+  .column-small-1-2, .column-small-2-4, .column-small-3-6, .column-small-4-8, .column-small-5-10, .column-small-6-12 {
+    width: 50%; }
+  .column-small-1-3, .column-small-2-6, .column-small-3-9, .column-small-4-12 {
+    width: 33.3333%; }
+  .column-small-1-4, .column-small-2-8, .column-small-3-12 {
+    width: 25%; }
+  .column-small-1-5, .column-small-2-10 {
+    width: 20%; } }
+
+@media (max-width: 767px) {
+  [class*='column-'] {
+    width: 100%; }
+  .column-xsmall-1, .column-xsmall-2-2, .column-xsmall-3-3, .column-xsmall-4-4, .column-xsmall-5-5, .column-xsmall-6-6, .column-xsmall-8-8, .column-xsmall-10-10, .column-xsmall-12-12 {
+    width: 100%; }
+  .column-xsmall-1-2, .column-xsmall-2-4, .column-xsmall-3-6, .column-xsmall-4-8, .column-xsmall-5-10, .column-xsmall-6-12 {
+    width: 50%; }
+  .column-xsmall-1-3, .column-xsmall-2-6, .column-xsmall-3-9, .column-xsmall-4-12 {
+    width: 33.3333%; }
+  .column-xsmall-1-4, .column-xsmall-2-8, .column-xsmall-3-12 {
+    width: 25%; }
+  .column-xsmall-1-5, .column-xsmall-2-10 {
+    width: 20%; } }
 
 /*
  * Column Offset Classes

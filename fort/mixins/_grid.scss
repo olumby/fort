@@ -1,0 +1,18 @@
+/*
+ * Grid
+ */
+
+// Grid
+@mixin columns($selector-prefix: ".column") {
+    @each $set in $list {
+        $selector: ();
+
+        @each $rule in map-get($set, list) {
+            $selector: append($selector, unquote("#{$selector-prefix}-#{$rule}"), comma);
+        }
+
+        #{$selector} {
+            width: decimal-round(percentage(map-get($set, value)), 4);
+        }
+    }
+    }
