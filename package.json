@@ -1,8 +1,8 @@
 {
-  "name": "sturret",
-  "version": "1.0.0",
-  "description": "A responsive frontend framework build with SCSS to normalize styles for default HTML elements",
-  "homepage": "http://github.com/olumby/sturret",
+  "name": "Fort",
+  "version": "0.0.1",
+  "description": "Fort is a frontend framework built with SCSS and originally ported from Turret by Scott de Jonge.",
+  "homepage": "http://github.com/olumby/fort",
   "author": "Oliver Lumby",
   "contributors": [
     {
@@ -18,35 +18,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/olumby/sturret"
+    "url": "https://github.com/olumby/fort"
   },
   "bugs": {
-    "url": "https://github.com/olumby/sturret/issues"
+    "url": "https://github.com/olumby/fort/issues"
   },
   "license": "MIT",
   "keywords": [
     "css",
-    "less",
+    "scss",
     "responsive",
     "front-end",
     "framework",
     "web"
   ],
-  "style": "dist/sturret.css",
-  "scss": "sturret/scss.less",
-  "scripts": {
-    "watch:sturret": "watch \"npm run build\" \"sturret\"",
-    "watch:docs": "watch \"npm run build\" \"docs/styles\"",
-    "watch": "npm run watch:sturret && npm run watch:docs",
-    "build": "node-sass docs/styles/styles.scss > docs/css/styles.css",
-    "dist:css": "node-sass sturret/sturret.scss > dist/sturret.css",
-    "dist:min": "node-sass -x sturret/sturret.scss > dist/sturret.min.css",
-    "dist": "npm run dist:css && npm run dist:min",
-    "postversion": "npm run docs:compile && echo \"Run 'npm publish ./' if you want this to be published\"",
-    "predocs:compile": "pushd ../sturret_gh-pages && rm -rf docs dist examples *.html",
-    "docs:compile": "wget -rkE --no-host-directories --no-verbose --no-cache -P ../sturret_gh-pages/ http://dev.sturret/",
-    "postdocs:compile": "echo WARNING: MAKE SURE YOU COMMIT AND PUSH GH-PAGES!!"
-  },
+  "style": "dist/fort.css",
+  "scss": "fort/fort.scss",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-cssnano": "^2.1.0",

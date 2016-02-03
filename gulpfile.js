@@ -6,19 +6,19 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
 gulp.task('build:css', function () {
-    return gulp.src('sturret/sturret.scss')
+    return gulp.src('fort/fort.scss')
         .pipe(sass())
         .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('build:min', function() {
-    return gulp.src('sturret/sturret.scss')
+    return gulp.src('fort/fort.scss')
         .pipe(sass({outputStyle: 'compressed'}))
-        .pipe(rename('sturret.min.css'))
+        .pipe(rename('fort.min.css'))
         .pipe(gulp.dest('./dist'));
 })
 
 
 gulp.task('watch', function () {
-    gulp.watch('sturret/**/*.scss', ['build:css', 'build:min']);
+    gulp.watch('fort/**/*.scss', ['build:css', 'build:min']);
 });
