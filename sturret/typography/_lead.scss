@@ -3,12 +3,12 @@
  */
 
 // Lead
-@lead-margin: 0px 0px 20px 0px;
-@lead-font-family: @thin-font-family;
-@lead-font-weight: @thin-font-weight;
-@lead-font-size: 2;
-@lead-color: @body-color;
-@lead-line-height: @line-height-medium;
+$lead-margin: 0px 0px 20px 0px;
+$lead-font-family: $thin-font-family;
+$lead-font-weight: $thin-font-weight;
+$lead-font-size: 2;
+$lead-color: $body-color;
+$lead-line-height: $line-height-medium;
 
 
 /*
@@ -16,10 +16,10 @@
  */
 
 .lead {
-	margin: @lead-margin;
-	font-family: @lead-font-family;
-	font-weight: @lead-font-weight;
-	.font-size(@lead-font-size);
-	color: @lead-color;
-	line-height: @lead-line-height;
+	margin: $lead-margin;
+	font-family: $lead-font-family;
+	font-weight: $lead-font-weight;
+	@include font-size($lead-font-size);
+	color: $lead-color;
+	line-height: $lead-line-height;
 }

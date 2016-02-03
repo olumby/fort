@@ -3,24 +3,24 @@
  */
 
 // List
-@list-margin: 20px 0px;
-@list-padding: 0;
+$list-margin: 20px 0px;
+$list-padding: 0;
 
 // Lists Item
-@list-item-margin: 10px 0px 10px 20px;
-@list-item-font-family: @paragraph-font-family;
-@list-item-font-weight: @paragraph-font-weight;
-@list-item-font-size: @paragraph-font-size;
-@list-item-color: @paragraph-color;
+$list-item-margin: 10px 0px 10px 20px;
+$list-item-font-family: $paragraph-font-family;
+$list-item-font-weight: $paragraph-font-weight;
+$list-item-font-size: $paragraph-font-size;
+$list-item-color: $paragraph-color;
 
 // Child List
-@child-list-margin: 10px 0px;
-@child-list-padding: 0;
-@child-list-item-margin: @list-item-margin;
+$child-list-margin: 10px 0px;
+$child-list-padding: 0;
+$child-list-item-margin: $list-item-margin;
 
 // Unordered List
-@unordered-list-icon: disc;
-@unordered-child-list-icon: disc;
+$unordered-list-icon: disc;
+$unordered-child-list-icon: disc;
 
 
 /*
@@ -29,22 +29,22 @@
 
 ul,
 ol {
-	margin: @list-margin;
-	padding: @list-padding;
+	margin: $list-margin;
+	padding: $list-padding;
 
 	li {
-		margin: @list-item-margin;
-		font-family: @list-item-font-family;
-		font-weight: @list-item-font-weight;
-		.font-size(@list-item-font-size);
-		color: @list-item-color;
+		margin: $list-item-margin;
+		font-family: $list-item-font-family;
+		font-weight: $list-item-font-weight;
+		@include font-size($list-item-font-size);
+		color: $list-item-color;
 		
 		ul {
-			margin: @child-list-margin;
-			padding: @child-list-padding;
+			margin: $child-list-margin;
+			padding: $child-list-padding;
 			
 			li {
-				margin: @child-list-item-margin;
+				margin: $child-list-item-margin;
 			}
 		}
 	}
@@ -52,12 +52,12 @@ ol {
 
 // Unordered List
 ul {
-	list-style: @unordered-list-icon;
+	list-style: $unordered-list-icon;
 	
 	li {
 		
 		ul {
-			list-style: @unordered-child-list-icon;
+			list-style: $unordered-child-list-icon;
 		}
 	}
 }

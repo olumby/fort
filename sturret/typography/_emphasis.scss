@@ -3,7 +3,7 @@
  */
 
 // Emphasis
-@em-font-style: italic;
+$em-font-style: italic;
 
 
 /*
@@ -11,5 +11,5 @@
  */
 
 em {
-	font-style: @em-font-style;
+	font-style: $em-font-style;
 }

@@ -3,17 +3,17 @@
  */
 
 // Pre
-@pre-margin: 20px 0px;
-@pre-padding: 10px;
-@pre-color: @body-color;
-@pre-tab-size: 4;
-@pre-hyphens: none;
-@pre-line-height: @line-height-medium;
-@pre-background: #FCFCFE;
-@pre-border: 1px solid @light;
+$pre-margin: 20px 0px;
+$pre-padding: 10px;
+$pre-color: $body-color;
+$pre-tab-size: 4;
+$pre-hyphens: none;
+$pre-line-height: $line-height-medium;
+$pre-background: #FCFCFE;
+$pre-border: 1px solid $light;
 
 // Pre Code
-@pre-code-color: @body-color;
+$pre-code-color: $body-color;
 
 
 /*
@@ -21,21 +21,21 @@
  */
 
 pre {
-	margin: @pre-margin;
-	padding: @pre-padding;
+	margin: $pre-margin;
+	padding: $pre-padding;
 	overflow: auto;
-	color: @pre-color;
+	color: $pre-color;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	.tab-size(@pre-tab-size);
-	.hyphens(@hyphens: none);
-	background: @pre-background;
-	border: @pre-border;
+	@include tab-size($pre-tab-size);
+	@include hyphens($hyphens: none);
+	background: $pre-background;
+	border: $pre-border;
 
 	code {
-		color: @pre-code-color;
+		color: $pre-code-color;
 	}
 }

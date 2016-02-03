@@ -3,25 +3,25 @@
  */
 
 // Headings
-@headings-margin: 0px 0px 20px 0px;
-@headings-font-family: @medium-font-family;
-@headings-font-weight: @medium-font-weight;
-@headings-color: @body-color;
-@headings-line-height: @line-height-small;
+$headings-margin: 0px 0px 20px 0px;
+$headings-font-family: $medium-font-family;
+$headings-font-weight: $medium-font-weight;
+$headings-color: $body-color;
+$headings-line-height: $line-height-small;
 
 // Headings Small
-@headings-small-font-family: @medium-font-family;
-@headings-small-font-weight: @medium-font-weight;
-@headings-small-size: 0.6em;
-@headings-small-color: @grey;
+$headings-small-font-family: $medium-font-family;
+$headings-small-font-weight: $medium-font-weight;
+$headings-small-size: 0.6em;
+$headings-small-color: $grey;
 
 // Heading Font Sizes
-@h1-font-size: 3.6;
-@h2-font-size: 2.8;
-@h3-font-size: 1.8;
-@h4-font-size: 1.6;
-@h5-font-size: 1.4;
-@h6-font-size: 1.2;
+$h1-font-size: 3.6;
+$h2-font-size: 2.8;
+$h3-font-size: 1.8;
+$h4-font-size: 1.6;
+$h5-font-size: 1.4;
+$h6-font-size: 1.2;
 
 
 /*
@@ -34,12 +34,12 @@ h3,
 h4,
 h5,
 h6 {
-	margin: @headings-margin;
+	margin: $headings-margin;
 	padding: 0;
-	font-family: @headings-font-family;
-	font-weight: @headings-font-weight;
-	color: @headings-color;
-	line-height: @headings-line-height;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	color: $headings-color;
+	line-height: $headings-line-height;
 }
 
 // Heading Small
@@ -49,33 +49,33 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-	font-family: @headings-small-font-family;
-	font-weight: @headings-small-font-weight;
-	font-size: @headings-small-size;
-	color: @headings-small-color;
+	font-family: $headings-small-font-family;
+	font-weight: $headings-small-font-weight;
+	font-size: $headings-small-size;
+	color: $headings-small-color;
 }
 
 // Heading Font Sizes
 h1 {
-	.font-size(@h1-font-size);
+	@include font-size($h1-font-size);
 }
 
 h2 {
-	.font-size(@h2-font-size);
+	@include font-size($h2-font-size);
 }
 
 h3 {
-	.font-size(@h3-font-size);
+	@include font-size($h3-font-size);
 }
 
 h4 {
-	.font-size(@h4-font-size);
+	@include font-size($h4-font-size);
 }
 
 h5 {
-	.font-size(@h5-font-size);
+	@include font-size($h5-font-size);
 }
 
 h6 {
-	.font-size(@h6-font-size);
+	@include font-size($h6-font-size);
 }

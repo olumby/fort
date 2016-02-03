@@ -3,9 +3,9 @@
  */
 
 // Horizontal Rule
-@hr-margin: 35px auto;
-@hr-height: 1px;
-@hr-background: @light-grey;
+$hr-margin: 35px auto;
+$hr-height: 1px;
+$hr-background: $light-grey;
 
 
 /*
@@ -14,8 +14,8 @@
 
 hr {
 	clear: both;
-	margin: @hr-margin;
+	margin: $hr-margin;
 	border: 0;
-	height: @hr-height;
-	background: @hr-background;
+	height: $hr-height;
+	background: $hr-background;
 }

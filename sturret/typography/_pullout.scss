@@ -3,14 +3,14 @@
  */
 
 // Pullout
-@pullout-margin: @blockquote-margin;
-@pullout-padding: @blockquote-padding;
-@pullout-font-family: @blockquote-quote-font-family;
-@pullout-font-weight: @blockquote-quote-font-weight;
-@pullout-font-size: @blockquote-quote-font-size;
-@pullout-color: @blockquote-quote-color;
-@pullout-border: solid @primary;
-@pullout-border-width:  0px 0px 0px 5px;
+$pullout-margin: $blockquote-margin;
+$pullout-padding: $blockquote-padding;
+$pullout-font-family: $blockquote-quote-font-family;
+$pullout-font-weight: $blockquote-quote-font-weight;
+$pullout-font-size: $blockquote-quote-font-size;
+$pullout-color: $blockquote-quote-color;
+$pullout-border: solid $primary;
+$pullout-border-width:  0px 0px 0px 5px;
 
 
 /*
@@ -18,12 +18,12 @@
  */
 
 .pullout {
-	margin: @pullout-margin;
-	padding: @pullout-padding;
-	font-family: @pullout-font-family;
-	font-weight: @pullout-font-weight;
-	.font-size(@pullout-font-size);
-	color: @pullout-color;
-	border: @pullout-border;
-	border-width: @pullout-border-width;
+	margin: $pullout-margin;
+	padding: $pullout-padding;
+	font-family: $pullout-font-family;
+	font-weight: $pullout-font-weight;
+	@include font-size($pullout-font-size);
+	color: $pullout-color;
+	border: $pullout-border;
+	border-width: $pullout-border-width;
 }

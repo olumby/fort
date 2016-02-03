@@ -3,12 +3,12 @@
  */
 
 // Paragraph
-@paragraph-margin: 20px 0px;
-@paragraph-font-family: @regular-font-family;
-@paragraph-font-weight: @regular-font-weight;
-@paragraph-font-size: @font-size-medium;
-@paragraph-color: @body-color;
-@paragraph-line-height: @line-height-medium;
+$paragraph-margin: 20px 0px;
+$paragraph-font-family: $regular-font-family;
+$paragraph-font-weight: $regular-font-weight;
+$paragraph-font-size: $font-size-medium;
+$paragraph-color: $body-color;
+$paragraph-line-height: $line-height-medium;
 
 
 /*
@@ -16,10 +16,10 @@
  */
 
 p {
-	margin: @paragraph-margin;
-	font-family: @paragraph-font-family;
-	font-weight: @paragraph-font-weight;
-	.font-size(@paragraph-font-size);
-	color: @paragraph-color;
-	line-height: @paragraph-line-height;
+	margin: $paragraph-margin;
+	font-family: $paragraph-font-family;
+	font-weight: $paragraph-font-weight;
+	@include font-size($paragraph-font-size);
+	color: $paragraph-color;
+	line-height: $paragraph-line-height;
 }
