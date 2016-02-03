@@ -18,7 +18,7 @@ $link-hover-decoration: underline;
 a {
 	color: $link-color;
 	text-decoration: $link-text-decoration;
-	.transition(color $transition-fast ease-in-out);
+	@include transition(color $transition-fast ease-in-out);
 	
 	&:not(.button):hover,
 	&:not(.button):focus {

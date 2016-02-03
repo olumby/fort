@@ -15,19 +15,37 @@
 
 @import 'lib/normalize.scss';
 
+/*
+ * Mixins
+ */
+
+@import 'mixins/mixins.scss';
+// @import 'mixins/button.less';
+// @import 'mixins/input.less';
+// @import 'mixins/select.less';
+// @import 'mixins/font.less';
+// @import 'mixins/border-radius.less';
+// @import 'mixins/background.less';
+// @import 'mixins/placeholder.less';
+// @import 'mixins/arrows.less';
+// @import 'mixins/transitions.less';
+// @import 'mixins/transforms.less';
+// @import 'mixins/animations.less';
+// @import 'mixins/filters.less';
+// @import 'mixins/flexbox.less';
 
 /*
  * Base
  */
 
-@import 'base/global.scss';
-@import 'base/body.scss';
-@import 'base/colors.scss';
-@import 'base/font.scss';
-@import 'base/link.scss';
-@import 'base/image.scss';
 @import 'base/breakpoints.scss';
 @import 'base/media-queries.scss';
+@import 'base/global.scss';
+@import 'base/font.scss';
+@import 'base/colors.scss';
+@import 'base/body.scss';
+@import 'base/link.scss';
+@import 'base/image.scss';
 @import 'base/print.scss';
 
 
@@ -84,15 +102,15 @@
  * Elements
  */
 
-// @import 'elements/button.less';
-// @import 'elements/button-styles.less';
-// @import 'elements/button-indicators.less';
-// @import 'elements/button-sizes.less';
-// @import 'elements/button-group.less';
-// @import 'elements/figure.less';
-// @import 'elements/media.less';
-// @import 'elements/nav.less';
-// @import 'elements/table.less';
+@import 'elements/button.scss';
+@import 'elements/button-styles.scss';
+@import 'elements/button-indicators.scss';
+@import 'elements/button-sizes.scss';
+@import 'elements/button-group.scss';
+@import 'elements/figure.scss';
+@import 'elements/media.scss';
+@import 'elements/nav.scss';
+@import 'elements/table.scss';
 
 
 /*
@@ -116,27 +134,7 @@
 
 
 /*
- * Mixins
- */
-
-// @import 'mixins/mixins.less';
-// @import 'mixins/button.less';
-// @import 'mixins/input.less';
-// @import 'mixins/select.less';
-// @import 'mixins/font.less';
-// @import 'mixins/border-radius.less';
-// @import 'mixins/background.less';
-// @import 'mixins/placeholder.less';
-// @import 'mixins/arrows.less';
-// @import 'mixins/transitions.less';
-// @import 'mixins/transforms.less';
-// @import 'mixins/animations.less';
-// @import 'mixins/filters.less';
-// @import 'mixins/flexbox.less';
-
-
-/*
  * Accessibility
  */
 
-// @import 'accessibility/screen-reader.less';
+@import 'accessibility/screen-reader.scss';

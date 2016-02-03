@@ -26,7 +26,7 @@ html * {
 *,
 *:before,
 *:after {
-	.box-sizing(border-box);
+	@include box-sizing(border-box);
 }
 
 // Removes Dotted Border

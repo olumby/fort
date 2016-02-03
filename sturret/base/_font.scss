@@ -52,23 +52,23 @@ $line-height-xsmall: 1;
 html {
 	font-size: $base-font-size;
 
-	@media $xlarge {
+	@media #{$xlarge} {
 		font-size: $base-font-size-xlarge;
 	}
 	
-	@media $large {
+	@media #{$large} {
 		font-size: $base-font-size-large;
 	}
 
-	@media $medium {
+	@media #{$medium} {
 		font-size: $base-font-size-medium;
 	}
 	
-	@media $small {
+	@media #{$small} {
 		font-size: $base-font-size-small;
 	}
 
-	@media $xsmall {
+	@media #{$xsmall} {
 		font-size: $base-font-size-xsmall;
 	}
 }

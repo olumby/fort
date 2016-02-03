@@ -1,0 +1,64 @@
+/*
+ * Definitions
+ */
+
+//Button Error
+$button-error-color: $white;
+$button-error-background: $error;
+$button-error-border: 1px solid darken($error, 5%);
+$button-error-hover-color: $button-error-color;
+$button-error-hover-background: darken($error, 10%);
+$button-error-hover-border: 1px solid darken($error, 15%);
+
+//Button Warning
+$button-warning-color: $white;
+$button-warning-background: $warning;
+$button-warning-border: 1px solid darken($warning, 5%);
+$button-warning-hover-color: $button-warning-color;
+$button-warning-hover-background: darken($warning, 10%);
+$button-warning-hover-border: 1px solid darken($warning, 15%);
+
+//Button Success
+$button-success-color: $white;
+$button-success-background: $success;
+$button-success-border: 1px solid darken($success, 5%);
+$button-success-hover-color: $button-success-color;
+$button-success-hover-background: darken($success, 10%);
+$button-success-hover-border: 1px solid darken($success, 15%);
+
+//Button Info
+$button-info-color: $white;
+$button-info-background: $info;
+$button-info-border: 1px solid darken($button-info-background, 5%);
+$button-info-hover-color: $button-info-color;
+$button-info-hover-background: darken($button-info-background, 10%);
+$button-info-hover-border: 1px solid darken($info, 15%);
+
+
+/*
+ * Button Indicators
+ */
+
+button,
+.button {
+	
+	//Button Error
+	&.error {
+		@include button-theme($button-error-color, $button-error-background, $button-error-border, $button-error-hover-color, $button-error-hover-background, $button-error-hover-border);
+	}
+	
+	//Button Warning
+	&.warning {
+		@include button-theme($button-warning-color, $button-warning-background, $button-warning-border, $button-warning-hover-color, $button-warning-hover-background, $button-warning-hover-border);
+	}
+	
+	//Button Success
+	&.success {
+		@include button-theme($button-success-color, $button-success-background, $button-success-border, $button-success-hover-color, $button-success-hover-background, $button-success-hover-border);
+	}
+	
+	//Button Info
+	&.info {
+		@include button-theme($button-info-color, $button-info-background, $button-info-border, $button-info-hover-color, $button-info-hover-background, $button-info-hover-border);
+	}
+}

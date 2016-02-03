@@ -48,13 +48,13 @@
 	
 		> button:last-child,
 		> .button:last-child {
-			.border-right-radius(0);
+			@include border-right-radius(0);
 		}
 	}
 	
 	> .button-group:last-child > button:first-child,
 	> .button-group:last-child > .button:first-child {
-		.border-left-radius(0);
+		@include border-left-radius(0);
 	}
 
 	// Set corners individual because sometimes a single button can be in a .button-group and we need :first-child and :last-child to both match
@@ -63,13 +63,13 @@
 		margin-left: 0;
 		
 		&:not(:last-child) {
-			.border-right-radius(0);
+			@include border-right-radius(0);
 		}
 	}
 	
 	> button:last-child:not(:first-child),
 	> .button:last-child:not(:first-child) {
-		.border-left-radius(0);
+		@include border-left-radius(0);
 	}
 }
 
