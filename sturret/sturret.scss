@@ -81,6 +81,19 @@
 @import 'grid/push';
 @import 'grid/pull';
 
+/*
+ * Elements
+ */
+
+@import 'elements/button';
+@import 'elements/button-styles';
+@import 'elements/button-indicators';
+@import 'elements/button-sizes';
+@import 'elements/button-group';
+@import 'elements/figure';
+@import 'elements/media';
+@import 'elements/nav';
+@import 'elements/table';
 
 /*
  * Form
@@ -97,22 +110,6 @@
 @import 'form/control';
 @import 'form/select';
 @import 'form/select-sizes';
-
-
-/*
- * Elements
- */
-
-@import 'elements/button';
-@import 'elements/button-styles';
-@import 'elements/button-indicators';
-@import 'elements/button-sizes';
-@import 'elements/button-group';
-@import 'elements/figure';
-@import 'elements/media';
-@import 'elements/nav';
-@import 'elements/table';
-
 
 /*
  * Utilities

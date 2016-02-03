@@ -13,11 +13,6 @@ $control-indicator-color: $primary;
 $control-indicator-background: $input-background;
 $control-indicator-border: $input-border;
 
-// Control Checked
-$control-indicator-checked-background: $primary;
-$control-indicator-checked-border: 1px solid $primary;
-$control-label-checked-color: $control-label-color;
-
 // Control Label
 $control-label-margin: 0px 0px 0px 10px;
 $control-label-font-family: $input-font-family;
@@ -25,6 +20,11 @@ $control-label-font-weight: $input-font-weight;
 $control-label-font-size: $label-font-size;
 $control-label-color: $input-color;
 $control-label-line-height: $input-line-height;
+
+// Control Checked
+$control-indicator-checked-background: $primary;
+$control-indicator-checked-border: 1px solid $primary;
+$control-label-checked-color: $control-label-color;
 
 // Control Inline
 $control-inline-margin-right: 20px;
