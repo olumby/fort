@@ -4,40 +4,40 @@
 
 // Sans Serif Font
 .sans-serif-font {
-	font-family: @sans-serif-font-family;
+	font-family: $sans-serif-font-family;
 }
 
 // Serif Font
 .serif-font {
-	font-family: @serif-font-family;
+	font-family: $serif-font-family;
 }
 
 // Monospace Font
 .monospace-font {
-	font-family: @monospace-font-family;
+	font-family: $monospace-font-family;
 }
 
 // Thin Font
 .thin-font {
-	.thin-font();
+	@include thin-font;
 }
 
 // Regular Font
 .regular-font {
-	.regular-font();
+	@include regular-font;
 }
 
 // Medium Font
 .medium-font {
-	.medium-font();
+	@include medium-font;
 }
 
 // Semibold Font
 .semibold-font {
-	.semibold-font();
+	@include semibold-font;
 }
 
 // Bold Font
 .bold-font {
-	.bold-font();
+	@include bold-font;
 }

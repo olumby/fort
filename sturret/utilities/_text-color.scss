@@ -4,59 +4,59 @@
 
 //Shades
 .text-white {
-	color: @white !important;
+	color: $white !important;
 }
 
 .text-light-grey {
-	color: @light-grey  !important;
+	color: $light-grey  !important;
 }
 
 .text-grey {
-	color: @grey !important;
+	color: $grey !important;
 }
 
 .text-dark-grey {
-	color: @dark-grey !important;
+	color: $dark-grey !important;
 }
 
 .text-black {
-	color: @black !important;
+	color: $black !important;
 }
 
 //Indicators
 .text-error {
-	color: @error !important;
+	color: $error !important;
 }
 
 .text-warning {
-	color: @warning !important;
+	color: $warning !important;
 }
 
 .text-success {
-	color: @success !important;
+	color: $success !important;
 }
 
 .text-info {
-	color: @info !important;
+	color: $info !important;
 }
 
 //Palette
 .text-primary {
-	color: @primary !important;
+	color: $primary !important;
 }
 
 .text-secondary {
-	color: @secondary !important;
+	color: $secondary !important;
 }
 
 .text-tertiary {
-	color: @tertiary !important;
+	color: $tertiary !important;
 }
 
 .text-dark {
-	color: @dark !important;
+	color: $dark !important;
 }
 
 .text-light {
-	color: @light !important;
+	color: $light !important;
 }

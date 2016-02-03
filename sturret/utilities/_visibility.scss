@@ -3,11 +3,11 @@
  */
 
 .hide {
-	.hide();
+	@include hide;
 }
 
 .show {
-	.show();
+	@include show;
 }
 
 .visible {
@@ -19,11 +19,11 @@
 }
 
 .hide-text {
-	.hide-text();
+	@include hide-text;
 }
 
 .hide-visually {
-	.hide-visually();
+	@include hide-visually;
 }
 
 /*
@@ -34,31 +34,31 @@
 .hidden-print {
 
 	@media print {
-		.hide();
+		@include hide;
 	}
 }
 
 .hidden-screen {
 
 	@media screen {
-		.hide();
+		@include hide;
 	}
 }
 
 // Visible
 .visible-print {
-	.hide();
+	@include hide;
 
 	@media print {
-		.show();
+		@include show;
 	}
 }
 
 .visible-screen {
-	.hide();
+	@include hide;
 
 	@media screen {
-		.show();
+		@include show;
 	}
 }
 
@@ -70,82 +70,82 @@
 // Hidden Extra Large
 .hidden-xlarge {
 
-	@media @xlarge {
-		.hide();
+	@media #{$xlarge} {
+		@include hide;
 	}
 }
 
 // Hidden Large
 .hidden-large {
 
-	@media @large {
-		.hide();
+	@media #{$large} {
+		@include hide;
 	}
 }
 
 .hidden-large-up {
 
-	@media @large-up {
-		.hide();
+	@media #{$large-up} {
+		@include hide;
 	}
 }
 
 .hidden-large-down {
 
-	@media @large-down {
-		.hide();
+	@media #{$large-down} {
+		@include hide;
 	}
 }
 
 // Hidden Medium
 .hidden-medium {
 
-	@media @medium {
-		.hide();
+	@media #{$medium} {
+		@include hide;
 	}
 }
 
 .hidden-medium-up {
 
-	@media @medium-up {
-		.hide();
+	@media #{$medium-up} {
+		@include hide;
 	}
 }
 
 .hidden-medium-down {
 
-	@media @medium-down {
-		.hide();
+	@media #{$medium-down} {
+		@include hide;
 	}
 }
 
 // Hidden Small
 .hidden-small {
 
-	@media @small {
-		.hide();
+	@media #{$small} {
+		@include hide;
 	}
 }
 
 .hidden-small-up {
 
-	@media @small-up {
-		.hide();
+	@media #{$small-up} {
+		@include hide;
 	}
 }
 
 .hidden-small-down {
 
-	@media @small-down {
-		.hide();
+	@media #{$small-down} {
+		@include hide;
 	}
 }
 
 // Hidden Extra Small
 .hidden-xsmall {
 
-	@media @xsmall {
-		.hide();
+	@media #{$xsmall} {
+		@include hide;
 	}
 }
 
@@ -156,93 +156,93 @@
 
 //Visible Extra Large
 .visible-xlarge {
-	.hide();
+	@include hide;
 
-	@media @xlarge {
-		.show();
+	@media #{$xlarge} {
+		@include show;
 	}
 }
 
 //Visible Large
 .visible-large {
-	.hide();
+	@include hide;
 
-	@media @large {
-		.show();
+	@media #{$large} {
+		@include show;
 	}
 }
 
 .visible-large-up {
-	.hide();
+	@include hide;
 
-	@media @large-up {
-		.show();
+	@media #{$large-up} {
+		@include show;
 	}
 }
 
 .visible-large-down {
-	.hide();
+	@include hide;
 
-	@media @large-down {
-		.show();
+	@media #{$large-down} {
+		@include show;
 	}
 }
 
 //Visible Medium
 .visible-medium {
-	.hide();
+	@include hide;
 
-	@media @medium {
-		.show();
+	@media #{$medium} {
+		@include show;
 	}
 }
 
 .visible-medium-up {
-	.hide();
+	@include hide;
 
-	@media @medium-up {
-		.show();
+	@media #{$medium-up} {
+		@include show;
 	}
 }
 
 .visible-medium-down {
-	.hide();
+	@include hide;
 
-	@media @medium-down {
-		.show();
+	@media #{$medium-down} {
+		@include show;
 	}
 }
 
 //Visible Small
 .visible-small {
-	.hide();
+	@include hide;
 
-	@media @small {
-		.show();
+	@media #{$small} {
+		@include show;
 	}
 }
 
 .visible-small-up {
-	.hide();
+	@include hide;
 
-	@media @small-up {
-		.show();
+	@media #{$small-up} {
+		@include show;
 	}
 }
 
 .visible-small-down {
-	.hide();
+	@include hide;
 
-	@media @small-down {
-		.show();
+	@media #{$small-down} {
+		@include show;
 	}
 }
 
 //Visible Extra Small
 .visible-xsmall {
-	.hide();
+	@include hide;
 
-	@media @xsmall {
-		.show();
+	@media #{$xsmall} {
+		@include show;
 	}
 }

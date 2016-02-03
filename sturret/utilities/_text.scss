@@ -20,11 +20,11 @@
 }
 
 .truncate {
-	.truncate();
+	@include truncate;
 }
 
 .text-hide {
-	.text-hide();
+	@include text-hide;
 }
 
 .uppercase {

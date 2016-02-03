@@ -9,8 +9,8 @@
 	left: 0;
 	
 	&.gutter {
-		top: @gutter;
-		left: @gutter;
+		top: $gutter;
+		left: $gutter;
 	}
 }
 
@@ -21,8 +21,8 @@
 	right: 0;
 	
 	&.gutter {
-		top: @gutter;
-		right: @gutter;
+		top: $gutter;
+		right: $gutter;
 	}
 }
 
@@ -33,8 +33,8 @@
 	left: 0;
 	
 	&.gutter {
-		bottom: @gutter;
-		left: @gutter;
+		bottom: $gutter;
+		left: $gutter;
 	}
 }
 
@@ -45,8 +45,8 @@
 	right: 0;
 	
 	&.gutter {
-		bottom: @gutter;
-		right: @gutter;
+		bottom: $gutter;
+		right: $gutter;
 	}
 }
 
@@ -55,10 +55,10 @@
 	position: absolute !important;
 	top: 50%;
 	left: 0;
-	.translateY(-50%);
+	@include translateY(-50%);
 	
 	&.gutter {
-		left: @gutter;
+		left: $gutter;
 	}
 }
 
@@ -67,14 +67,14 @@
 	position: absolute !important;
 	top: 50%;
 	right: 0;
-	.translateY(-50%);
+	@include translateY(-50%);
 	
 	&.gutter {
-		right: @gutter;
+		right: $gutter;
 	}
 }
 
 // Position Center
 .position-center {
-	.center();
+	@include center;
 }

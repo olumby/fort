@@ -3,11 +3,11 @@
  */
  
 .clearfix {
-	.clearfix();
+	@include clearfix;
 }
 
 .center-block {
-	.center-block();
+	@include center-block;
 }
 
 .full-height {
