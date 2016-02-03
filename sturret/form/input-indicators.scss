@@ -1,0 +1,38 @@
+/*
+ * Definitions
+ */
+
+// Input Indicators
+$input-error-color: $error;
+$input-warning-color: $warning;
+$input-success-color: $success;
+$input-info-color: $info;
+
+
+/*
+ * Input Indicators 
+ */
+
+input,
+textarea {
+
+	// Input Error
+	&.error {
+		@include input-indicator($input-error-color);
+	}
+	
+	// Input Warning
+	&.warning {
+		@include input-indicator($input-warning-color);
+	}
+	
+	// Input Success
+	&.success {
+		@include input-indicator($input-success-color);
+	}
+	
+	// Input Info
+	&.info {
+		@include input-indicator($input-info-color);
+	}
+}

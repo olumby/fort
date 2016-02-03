@@ -1,0 +1,38 @@
+/*
+ * Placeholder
+ */
+ 
+@mixin placeholder-input($font-family, $font-size, $color, $letter-spacing, $text-transform) {
+	font-family: $font-family;
+	@include font-size($font-size);
+	color: $color;
+	letter-spacing: $letter-spacing;
+	text-transform: $text-transform;
+	@include transition(color $transition-fast ease-in-out);
+}
+
+@mixin placeholder-input-focus($color) {
+	color: fade($color, 25%);
+}
+
+//Placeholder
+.placeholder($color, $font-size, $font-family, $letter-spacing, $text-transform) {
+	&::-moz-placeholder {
+		@include placeholder-input($font-family, $font-size, $color, $letter-spacing, $text-transform);
+	}
+	&:focus::-moz-placeholder {
+		@include placeholder-input-focus($color);
+	}
+	&:-ms-input-placeholder {
+		@include placeholder-input($font-family, $font-size, $color, $letter-spacing, $text-transform);
+	}
+	&:focus:-ms-input-placeholder {
+		@include placeholder-input-focus($color);
+	}
+	&::-webkit-input-placeholder {
+		@include placeholder-input($font-family, $font-size, $color, $letter-spacing, $text-transform);
+	}
+	&:focus::-webkit-input-placeholder {
+		@include placeholder-input-focus($color);
+	}
+}

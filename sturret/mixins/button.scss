@@ -13,7 +13,7 @@
 	white-space: nowrap;
 	cursor: pointer;
 	border-radius: $button-border-radius;
-	.transition(all $transition-fast ease-in-out);
+	@include transition(all $transition-fast ease-in-out);
 }
 
 // Button Styles

@@ -13,128 +13,128 @@
  * Normalize
  */
 
-@import 'lib/normalize.scss';
+@import 'lib/normalize';
 
 /*
  * Mixins
  */
 
-@import 'mixins/mixins.scss';
-// @import 'mixins/button.less';
-// @import 'mixins/input.less';
-// @import 'mixins/select.less';
-// @import 'mixins/font.less';
-// @import 'mixins/border-radius.less';
-// @import 'mixins/background.less';
-// @import 'mixins/placeholder.less';
-// @import 'mixins/arrows.less';
-// @import 'mixins/transitions.less';
-// @import 'mixins/transforms.less';
-// @import 'mixins/animations.less';
-// @import 'mixins/filters.less';
-// @import 'mixins/flexbox.less';
+@import 'mixins/mixins';
+@import 'mixins/button';
+@import 'mixins/input';
+@import 'mixins/select';
+@import 'mixins/font';
+@import 'mixins/border-radius';
+@import 'mixins/background';
+@import 'mixins/placeholder';
+@import 'mixins/arrows';
+@import 'mixins/transitions';
+@import 'mixins/transforms';
+@import 'mixins/animations';
+@import 'mixins/filters';
+@import 'mixins/flexbox';
 
 /*
  * Base
  */
 
-@import 'base/breakpoints.scss';
-@import 'base/media-queries.scss';
-@import 'base/global.scss';
-@import 'base/font.scss';
-@import 'base/colors.scss';
-@import 'base/body.scss';
-@import 'base/link.scss';
-@import 'base/image.scss';
-@import 'base/print.scss';
+@import 'base/breakpoints';
+@import 'base/media-queries';
+@import 'base/global';
+@import 'base/font';
+@import 'base/colors';
+@import 'base/body';
+@import 'base/link';
+@import 'base/image';
+@import 'base/print';
 
 
 /*
  * Typography
  */
 
-// @import 'typography/headings.less';
-// @import 'typography/paragraph.less';
-// @import 'typography/lead.less';
-// @import 'typography/strong.less';
-// @import 'typography/emphasis.less';
-// @import 'typography/hr.less';
-// @import 'typography/blockquote.less';
-// @import 'typography/pullout.less';
-// @import 'typography/list.less';
-// @import 'typography/definition-list.less';
-// @import 'typography/code.less';
-// @import 'typography/pre.less';
-// @import 'typography/kbd.less';
+// @import 'typography/headings';
+// @import 'typography/paragraph';
+// @import 'typography/lead';
+// @import 'typography/strong';
+// @import 'typography/emphasis';
+// @import 'typography/hr';
+// @import 'typography/blockquote';
+// @import 'typography/pullout';
+// @import 'typography/list';
+// @import 'typography/definition-list';
+// @import 'typography/code';
+// @import 'typography/pre';
+// @import 'typography/kbd';
 
 
 /*
  * Grid
  */
 
-// @import 'grid/container.less';
-// @import 'grid/row.less';
-// @import 'grid/gutter.less';
-// @import 'grid/column.less';
-// @import 'grid/offset.less';
-// @import 'grid/push.less';
-// @import 'grid/pull.less';
+@import 'grid/container';
+@import 'grid/row';
+@import 'grid/gutter';
+@import 'grid/column';
+@import 'grid/offset';
+@import 'grid/push';
+@import 'grid/pull';
 
 
 /*
  * Form
  */
 
-// @import 'form/label.less';
-// @import 'form/fieldset.less';
-// @import 'form/form-message.less';
-// @import 'form/input.less';
-// @import 'form/input-indicators.less';
-// @import 'form/input-sizes.less';
-// @import 'form/input-group.less';
-// @import 'form/input-group-sizes.less';
-// @import 'form/control.less';
-// @import 'form/select.less';
-// @import 'form/select-sizes.less';
+@import 'form/label';
+@import 'form/fieldset';
+@import 'form/form-message';
+@import 'form/input';
+@import 'form/input-indicators';
+@import 'form/input-sizes';
+@import 'form/input-group';
+@import 'form/input-group-sizes';
+@import 'form/control';
+@import 'form/select';
+@import 'form/select-sizes';
 
 
 /*
  * Elements
  */
 
-@import 'elements/button.scss';
-@import 'elements/button-styles.scss';
-@import 'elements/button-indicators.scss';
-@import 'elements/button-sizes.scss';
-@import 'elements/button-group.scss';
-@import 'elements/figure.scss';
-@import 'elements/media.scss';
-@import 'elements/nav.scss';
-@import 'elements/table.scss';
+@import 'elements/button';
+@import 'elements/button-styles';
+@import 'elements/button-indicators';
+@import 'elements/button-sizes';
+@import 'elements/button-group';
+@import 'elements/figure';
+@import 'elements/media';
+@import 'elements/nav';
+@import 'elements/table';
 
 
 /*
  * Utilities
  */
 
-// @import 'utilities/utility-classes.less';
-// @import 'utilities/visibility.less';
-// @import 'utilities/display.less';
-// @import 'utilities/positioning.less';
-// @import 'utilities/flex.less';
-// @import 'utilities/float.less';
-// @import 'utilities/max-width.less';
-// @import 'utilities/margin.less';
-// @import 'utilities/padding.less';
-// @import 'utilities/font-family.less';
-// @import 'utilities/font-size.less';
-// @import 'utilities/text.less';
-// @import 'utilities/text-color.less';
-// @import 'utilities/background.less';
+// @import 'utilities/utility-classes';
+// @import 'utilities/visibility';
+// @import 'utilities/display';
+// @import 'utilities/positioning';
+// @import 'utilities/flex';
+// @import 'utilities/float';
+// @import 'utilities/max-width';
+// @import 'utilities/margin';
+// @import 'utilities/padding';
+// @import 'utilities/font-family';
+// @import 'utilities/font-size';
+// @import 'utilities/text';
+// @import 'utilities/text-color';
+// @import 'utilities/background';
 
 
 /*
  * Accessibility
  */
 
-@import 'accessibility/screen-reader.scss';
+@import 'accessibility/screen-reader';

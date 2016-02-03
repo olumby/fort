@@ -2,42 +2,42 @@
  * Animations
  */
 
-.animation(@animation) {
+@mixin animation(@animation) {
 	-webkit-animation: @animation;
 	animation: @animation;
 }
 
-.animation-name(@name) {
+@mixin animation-name(@name) {
 	-webkit-animation-name: @name;
 	animation-name: @name;
 }
 
-.animation-duration(@duration) {
+@mixin animation-duration(@duration) {
 	-webkit-animation-duration: @duration;
 	animation-duration: @duration;
 }
 
-.animation-fill-mode(@mode) {
+@mixin animation-fill-mode(@mode) {
 	-webkit-animation-fill-mode: @mode;
 	animation-fill-mode: @mode;
 }
 
-.animation-timing-function(@timing-function) {
+@mixin animation-timing-function(@timing-function) {
 	-webkit-animation-timing-function: @timing-function;
 	animation-timing-function: @timing-function;
 }
 
-.animation-delay(@delay) {
+@mixin animation-delay(@delay) {
 	-webkit-animation-delay: @delay;
 	animation-delay: @delay;
 }
 
-.animation-iteration-count(@iteration-count) {
+@mixin animation-iteration-count(@iteration-count) {
 	-webkit-animation-iteration-count: @iteration-count;
 	animation-iteration-count: @iteration-count;
 }
 
-.animation-direction(@direction) {
+@mixin animation-direction(@direction) {
 	-webkit-animation-direction: @direction;
 	animation-direction: @direction;
 }

@@ -1,0 +1,31 @@
+/*
+ * Border Radius
+ */
+
+
+//Border Radiuses
+@mixin border-radiuses ($top-left: $border-radius, $top-right: $border-radius, $bottom-left: $border-radius, $bottom-right: $border-radius) {
+	border-radius: $top-left $top-right $bottom-right $bottom-left;
+	background-clip: padding-box;
+}
+
+//Single Side Border Radius
+@mixin border-top-radius($radius) {
+	border-top-right-radius: $radius;
+	border-top-left-radius: $radius;
+}
+
+@mixin border-right-radius($radius) {
+	border-bottom-right-radius: $radius;
+	border-top-right-radius: $radius;
+}
+
+@mixin border-bottom-radius($radius) {
+	border-bottom-right-radius: $radius;
+	border-bottom-left-radius: $radius;
+}
+
+@mixin border-left-radius($radius) {
+	border-bottom-left-radius: $radius;
+	border-top-left-radius: $radius;
+}

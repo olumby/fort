@@ -1,0 +1,28 @@
+/*
+ * Input Group Sizes
+ */
+
+// Input Group Button Extra Large
+.input-group-button-xlarge {
+	@include input-group-button($button-xlarge-padding, $input-xlarge-height, $input-xlarge-font-size);
+}
+
+// Input Group Button Large
+.input-group-button-large {
+	@include input-group-button($button-large-padding, $input-large-height, $input-large-font-size);
+}
+
+// Input Group Button Medium
+.input-group-button-medium {
+	@include input-group-button($button-medium-padding, $input-medium-height, $input-medium-font-size);
+}
+
+// Input Group Button Small
+.input-group-button-small {
+	@include input-group-button($button-small-padding, $input-small-height, $input-small-font-size);
+}
+
+// Input Group Button Extra Small
+.input-group-button-xsmall {
+	@include input-group-button($button-xsmall-padding, $input-xsmall-height, $input-xsmall-font-size);
+}
