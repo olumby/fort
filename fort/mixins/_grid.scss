@@ -3,7 +3,7 @@
  */
 
 // Loop
-@mixin loop($property, $selector-prefix) {
+@mixin grid-loop($property, $selector-prefix) {
     @each $set in $list {
         $selector: ();
 
@@ -19,20 +19,20 @@
 
 // Columns
 @mixin columns($selector-prefix: ".column") {
-    @include loop(width, $selector-prefix)
+    @include grid-loop(width, $selector-prefix)
 }
 
 // Offsets
 @mixin grid-offset($selector-prefix: ".column-offset") {
-    @include loop(margin-left, $selector-prefix)
+    @include grid-loop(margin-left, $selector-prefix)
 }
 
 // Pull
 @mixin grid-pull($selector-prefix: ".column-pull") {
-    @include loop(right, $selector-prefix)
+    @include grid-loop(right, $selector-prefix)
 }
 
 // Push
 @mixin grid-push($selector-prefix: ".column-push") {
-    @include loop(left, $selector-prefix)
+    @include grid-loop(left, $selector-prefix)
 }
