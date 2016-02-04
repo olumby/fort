@@ -25,6 +25,7 @@ fieldset {
 
 	legend {
 		display: inline-block;
+		width: auto;
 		padding: $fieldset-legend-padding;
 		@include font-size($fieldset-legend-font-size);
 		color: $fieldset-legend-color;

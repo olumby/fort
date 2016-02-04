@@ -22,13 +22,6 @@ html * {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-// Box Sizing
-*,
-*:before,
-*:after {
-	@include box-sizing(border-box);
-}
-
 // Removes Dotted Border
 :focus {
 	outline: 0;
