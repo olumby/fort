@@ -5,9 +5,11 @@ var uglify = require('gulp-uglify');
 var webserver = require('gulp-webserver');
 var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
+var plumber = require('gulp-plumber');
 
 gulp.task('build:css', function () {
     return gulp.src('fort/fort.scss')
+        .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write('.'))
@@ -16,6 +18,7 @@ gulp.task('build:css', function () {
 
 gulp.task('build:min', function() {
     return gulp.src('fort/fort.scss')
+        .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(rename('fort.min.css'))
