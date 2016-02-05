@@ -466,7 +466,7 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35;
   letter-spacing: 0.02rem;
   background: #FFFFFF; }
@@ -478,12 +478,12 @@ body {
  * Link
  */
 a {
-  color: #05BED5;
+  color: #FC6E51;
   text-decoration: none;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out; }
   a:not(.button):hover, a:not(.button):focus {
-    color: #434A54;
+    color: #37474F;
     text-decoration: underline; }
 
 /*
@@ -573,7 +573,7 @@ h6 {
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.2; }
 
 h1 small,
@@ -585,7 +585,7 @@ h6 small {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 0.6em;
-  color: #656D78; }
+  color: #546E7A; }
 
 h1 {
   font-size: 3.6rem; }
@@ -616,7 +616,7 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35; }
 
 /*
@@ -630,7 +630,7 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 2rem;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35; }
 
 /*
@@ -663,7 +663,7 @@ hr {
   margin: 3.5rem auto;
   border: 0;
   height: 1px;
-  background: #CCD1D9; }
+  background: #CFD8DC; }
 
 /*
  * Definitions
@@ -681,14 +681,14 @@ blockquote {
     font-size: 2rem;
     font-style: normal;
     line-height: 1.35;
-    color: #434A54; }
+    color: #37474F; }
   blockquote cite {
     display: block;
     margin: 1rem 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
     font-style: normal;
-    color: #434A54;
+    color: #37474F;
     text-align: right; }
 
 /*
@@ -703,8 +703,8 @@ blockquote {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 2rem;
-  color: #434A54;
-  border: solid #05BED5;
+  color: #37474F;
+  border: solid #FC6E51;
   border-width: 0 0 0 0.5rem; }
 
 /*
@@ -723,7 +723,7 @@ ol {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
-    color: #434A54; }
+    color: #37474F; }
     ul li ul,
     ol li ul {
       margin: 1rem 0;
@@ -760,14 +760,14 @@ dt {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 1.4rem;
-  color: #434A54; }
+  color: #37474F; }
 
 dd {
   margin: 0 0 2rem 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #434A54; }
+  color: #37474F; }
 
 /*
  * Definitions
@@ -779,7 +779,7 @@ code {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-weight: normal;
   font-size: 1.2rem;
-  color: #B2347E; }
+  color: #967ADC; }
 
 /*
  * Definitions
@@ -791,7 +791,7 @@ pre {
   margin: 2rem 0;
   padding: 1rem;
   overflow: auto;
-  color: #434A54;
+  color: #37474F;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -805,9 +805,9 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
   background: #FCFCFE;
-  border: 1px solid #E3E7EC; }
+  border: 1px solid #ECEFF1; }
   pre code {
-    color: #434A54; }
+    color: #37474F; }
 
 /*
  * Definitions
@@ -821,9 +821,9 @@ kbd {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-weight: normal;
   font-size: 1.2rem;
-  color: #B2347E;
+  color: #967ADC;
   background: #FCFCFE;
-  border: 1px solid #E3E7EC; }
+  border: 1px solid #ECEFF1; }
 
 /*
  * Grid
@@ -1751,15 +1751,15 @@ button,
   padding: 1.2rem 1.6rem;
   height: 4rem;
   font-size: 1.4rem;
-  color: #434A54;
+  color: #37474F;
   background: #FFFFFF;
-  border: 1px solid #CCD1D9; }
+  border: 1px solid #CFD8DC; }
   button:not(:disabled):hover, button:not(:disabled):focus,
   .button:not(:disabled):hover,
   .button:not(:disabled):focus {
-    color: #434A54;
+    color: #37474F;
     background: #e6e6e6;
-    border: 1px solid #afb7c3; }
+    border: 1px solid #b2c0c6; }
 
 button:disabled {
   cursor: no-drop;
@@ -1787,58 +1787,58 @@ button:disabled {
  * Button Styles
  */
 .button-inverse {
-  color: #E3E7EC;
-  background: #434A54;
-  border: 1px solid #383e46; }
+  color: #ECEFF1;
+  background: #37474F;
+  border: 1px solid #2d3940; }
   .button-inverse:not(:disabled):hover, .button-inverse:not(:disabled):focus {
-    color: #E3E7EC;
-    background: #2c3138;
-    border: 1px solid #212529; }
+    color: #ECEFF1;
+    background: #222c31;
+    border: 1px solid #181e22; }
 
 .button-text {
-  color: #434A54;
+  color: #37474F;
   background: transparent;
   border: none; }
   .button-text:not(:disabled):hover, .button-text:not(:disabled):focus {
-    color: #05BED5;
+    color: #FC6E51;
     background: transparent;
     border: none; }
 
 .button-primary {
   color: #FFFFFF;
-  background: #05BED5;
-  border: 1px solid #04a8bc; }
+  background: #FC6E51;
+  border: 1px solid #fc5938; }
   .button-primary:not(:disabled):hover, .button-primary:not(:disabled):focus {
     color: #FFFFFF;
-    background: #0492a3;
-    border: 1px solid #037b8a; }
+    background: #fb441f;
+    border: 1px solid #fb2f06; }
 
 .button-secondary {
   color: #FFFFFF;
-  background: #8D48AB;
-  border: 1px solid #7e4099; }
+  background: #5D9CEC;
+  border: 1px solid #468ee9; }
   .button-secondary:not(:disabled):hover, .button-secondary:not(:disabled):focus {
     color: #FFFFFF;
-    background: #6f3987;
-    border: 1px solid #613175; }
+    background: #2f80e7;
+    border: 1px solid #1b72e2; }
 
 .button-tertiary {
   color: #FFFFFF;
-  background: #B2347E;
-  border: 1px solid #9e2e70; }
+  background: #967ADC;
+  border: 1px solid #8666d7; }
   .button-tertiary:not(:disabled):hover, .button-tertiary:not(:disabled):focus {
     color: #FFFFFF;
-    background: #8b2862;
-    border: 1px solid #9e2e70; }
+    background: #7652d1;
+    border: 1px solid #8666d7; }
 
 .button-border {
-  color: #434A54;
+  color: #37474F;
   background: transparent;
-  border: 1px solid #434A54; }
+  border: 1px solid #37474F; }
   .button-border:not(:disabled):hover, .button-border:not(:disabled):focus {
     color: #FFFFFF;
-    background: #434A54;
-    border: 1px solid #434A54; }
+    background: #37474F;
+    border: 1px solid #37474F; }
 
 /*
  * Definitions
@@ -1849,50 +1849,50 @@ button:disabled {
 button.error,
 .button.error {
   color: #FFFFFF;
-  background: #E01A2E;
-  border: 1px solid #c91729; }
+  background: #EF9A9A;
+  border: 1px solid #e55858; }
   button.error:not(:disabled):hover, button.error:not(:disabled):focus,
   .button.error:not(:disabled):hover,
   .button.error:not(:disabled):focus {
     color: #FFFFFF;
-    background: #b21525;
-    border: 1px solid #9b1220; }
+    background: #e55858;
+    border: 1px solid #de2c2c; }
 
 button.warning,
 .button.warning {
   color: #FFFFFF;
-  background: #FFC200;
-  border: 1px solid #e6af00; }
+  background: #FDD835;
+  border: 1px solid #e3ba02; }
   button.warning:not(:disabled):hover, button.warning:not(:disabled):focus,
   .button.warning:not(:disabled):hover,
   .button.warning:not(:disabled):focus {
     color: #FFFFFF;
-    background: #cc9b00;
-    border: 1px solid #b38800; }
+    background: #e3ba02;
+    border: 1px solid #caa502; }
 
 button.success,
 .button.success {
   color: #FFFFFF;
-  background: #05BE55;
-  border: 1px solid #04a54a; }
+  background: #9CCC65;
+  border: 1px solid #76ac39; }
   button.success:not(:disabled):hover, button.success:not(:disabled):focus,
   .button.success:not(:disabled):hover,
   .button.success:not(:disabled):focus {
     color: #FFFFFF;
-    background: #048c3f;
-    border: 1px solid #037334; }
+    background: #76ac39;
+    border: 1px solid #5c852c; }
 
 button.info,
 .button.info {
   color: #FFFFFF;
-  background: #149CFD;
-  border: 1px solid #0290f5; }
+  background: #4FC3F7;
+  border: 1px solid #0ba8ef; }
   button.info:not(:disabled):hover, button.info:not(:disabled):focus,
   .button.info:not(:disabled):hover,
   .button.info:not(:disabled):focus {
     color: #FFFFFF;
-    background: #0281dc;
-    border: 1px solid #0272c3; }
+    background: #0ba8ef;
+    border: 1px solid #0986be; }
 
 /*
  * Definitions
@@ -2002,14 +2002,14 @@ figure {
   display: block;
   margin: 0;
   padding: 1rem;
-  border: 1px solid #CCD1D9; }
+  border: 1px solid #CFD8DC; }
 
 figcaption {
   margin: 1rem 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #434A54;
+  color: #37474F;
   text-align: center; }
 
 /*
@@ -2022,7 +2022,7 @@ figcaption {
   display: block;
   position: relative;
   overflow: hidden;
-  background: #E3E7EC; }
+  background: #ECEFF1; }
   .media > svg,
   .media > img,
   .media > video,
@@ -2099,7 +2099,7 @@ table {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
-    color: #434A54;
+    color: #37474F;
     text-align: left; }
 
 th {
@@ -2107,7 +2107,7 @@ th {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
-  color: #434A54;
+  color: #37474F;
   text-align: left;
   text-transform: none; }
 
@@ -2116,19 +2116,19 @@ td {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35;
   vertical-align: middle; }
 
 .table-bordered th,
 .table-bordered td {
-  border: solid #CCD1D9;
+  border: solid #CFD8DC;
   border-width: 1px; }
 
 .table-block {
   width: 100%; }
   .table-block th {
-    background: #E3E7EC; }
+    background: #ECEFF1; }
 
 @media (max-width: 1023px) {
   .table-responsive table, .table-responsive thead, .table-responsive tbody, .table-responsive th, .table-responsive td, .table-responsive tr {
@@ -2139,7 +2139,7 @@ td {
     left: -9999px; }
   .table-responsive tr {
     margin: 2rem 0;
-    border: solid #E3E7EC;
+    border: solid #ECEFF1;
     border-width: 1px; }
   .table-responsive td {
     position: relative;
@@ -2161,7 +2161,7 @@ label {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35; }
 
 /*
@@ -2174,13 +2174,13 @@ fieldset {
   display: block;
   margin: 0;
   padding: 2rem;
-  border: 1px solid #656D78; }
+  border: 1px solid #546E7A; }
   fieldset legend {
     display: inline-block;
     width: auto;
     padding: 1rem;
     font-size: 1.4rem;
-    color: #656D78; }
+    color: #546E7A; }
 
 /*
  * Definitions
@@ -2193,16 +2193,16 @@ fieldset {
   font-size: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35; }
   .form-message.error {
-    color: #E01A2E; }
+    color: #EF9A9A; }
   .form-message.warning {
-    color: #FFC200; }
+    color: #FDD835; }
   .form-message.success {
-    color: #05BE55; }
+    color: #9CCC65; }
   .form-message.info {
-    color: #149CFD; }
+    color: #4FC3F7; }
 
 /*
  * Definitions
@@ -2217,9 +2217,9 @@ textarea {
   width: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35;
-  border: 1px solid #CCD1D9;
+  border: 1px solid #CFD8DC;
   background: #FFFFFF;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2236,56 +2236,56 @@ textarea {
   padding: 0 1.6rem;
   height: 4rem;
   font-size: 1.4rem;
-  color: #434A54;
+  color: #37474F;
   background: #FFFFFF;
-  border: 1px solid #CCD1D9; }
+  border: 1px solid #CFD8DC; }
   input:focus,
   textarea:focus {
-    color: #434A54;
+    color: #37474F;
     background: #fafafa;
-    border: 1px solid #afb7c3; }
+    border: 1px solid #b2c0c6; }
   input::-moz-placeholder,
   textarea::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   input:focus::-moz-placeholder,
   textarea:focus::-moz-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   input:-ms-input-placeholder,
   textarea:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   input:focus:-ms-input-placeholder,
   textarea:focus:-ms-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   input:focus::-webkit-input-placeholder,
   textarea:focus::-webkit-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   input:disabled,
   textarea:disabled {
     cursor: no-drop;
-    color: #E3E7EC;
-    background: #E3E7EC;
-    border: 1px solid #c5cdd7; }
+    color: #ECEFF1;
+    background: #ECEFF1;
+    border: 1px solid #cfd6db; }
 
 /*
  * Textarea
@@ -2300,11 +2300,11 @@ textarea {
  */
 .input-inverse {
   color: #FFFFFF;
-  background: #434A54;
+  background: #37474F;
   border: none; }
   .input-inverse:focus {
     color: #FFFFFF;
-    background: #3e454e;
+    background: #334249;
     border: none; }
   .input-inverse::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2401,23 +2401,23 @@ textarea {
  */
 input.error,
 textarea.error {
-  color: #E01A2E;
-  border-color: #E01A2E; }
+  color: #EF9A9A;
+  border-color: #EF9A9A; }
 
 input.warning,
 textarea.warning {
-  color: #FFC200;
-  border-color: #FFC200; }
+  color: #FDD835;
+  border-color: #FDD835; }
 
 input.success,
 textarea.success {
-  color: #05BE55;
-  border-color: #05BE55; }
+  color: #9CCC65;
+  border-color: #9CCC65; }
 
 input.info,
 textarea.info {
-  color: #149CFD;
-  border-color: #149CFD; }
+  color: #4FC3F7;
+  border-color: #4FC3F7; }
 
 /*
  * Definitions
@@ -2432,33 +2432,33 @@ textarea.info {
   .input-xlarge::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-xlarge:focus::-moz-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-xlarge:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-xlarge:focus:-ms-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-xlarge::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-xlarge:focus::-webkit-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
 
 .input-large {
   padding: 0 2.5rem;
@@ -2467,33 +2467,33 @@ textarea.info {
   .input-large::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-large:focus::-moz-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-large:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-large:focus:-ms-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-large::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-large:focus::-webkit-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
 
 .input-medium {
   padding: 0 1.6rem;
@@ -2502,33 +2502,33 @@ textarea.info {
   .input-medium::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-medium:focus::-moz-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-medium:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-medium:focus:-ms-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-medium::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-medium:focus::-webkit-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
 
 .input-small {
   padding: 0 1.2rem;
@@ -2537,33 +2537,33 @@ textarea.info {
   .input-small::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.2rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-small:focus::-moz-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-small:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.2rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-small:focus:-ms-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-small::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.2rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-small:focus::-webkit-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
 
 .input-xsmall {
   padding: 0 0.8rem;
@@ -2572,33 +2572,33 @@ textarea.info {
   .input-xsmall::-moz-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-xsmall:focus::-moz-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-xsmall:-ms-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-xsmall:focus:-ms-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
   .input-xsmall::-webkit-input-placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    color: fade(#434A54, 50%);
+    color: fade(#37474F, 50%);
     letter-spacing: 0px;
     text-transform: none;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
   .input-xsmall:focus::-webkit-input-placeholder {
-    color: fade(fade(#434A54, 50%), 25%); }
+    color: fade(fade(#37474F, 50%), 25%); }
 
 /*
  * Input Group
@@ -2707,7 +2707,7 @@ textarea.info {
   display: block;
   margin: 1.5rem 0;
   padding: 0 0 0 1.5rem;
-  color: #434A54;
+  color: #37474F;
   cursor: pointer; }
   .control.control-inline {
     display: inline-block;
@@ -2717,14 +2717,14 @@ textarea.info {
     position: absolute;
     opacity: 0; }
     .control input:checked ~ .control-indicator {
-      background: #05BED5;
-      border: 1px solid #05BED5; }
+      background: #FC6E51;
+      border: 1px solid #FC6E51; }
     .control input:checked ~ .control-label {
-      color: #434A54; }
+      color: #37474F; }
   .control.checkbox .control-indicator {
     border-radius: none; }
   .control.checkbox input:checked ~ .control-indicator {
-    background: #05BED5 no-repeat 50% 50% url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K"); }
+    background: #FC6E51 no-repeat 50% 50% url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K"); }
   .control.radio .control-indicator {
     border-radius: 50%; }
   .control.radio input:checked ~ .control-indicator:before {
@@ -2748,13 +2748,13 @@ textarea.info {
   width: 1.6rem;
   height: 1.6rem;
   line-height: 1rem;
-  color: #05BED5;
+  color: #FC6E51;
   text-align: center;
   background-color: #FFFFFF;
   background-size: 50% 50%;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 1px solid #CCD1D9;
+  border: 1px solid #CFD8DC;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2766,7 +2766,7 @@ textarea.info {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
-  color: #434A54;
+  color: #37474F;
   line-height: 1.35;
   pointer-events: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -2794,11 +2794,11 @@ select {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
-    color: #434A54;
+    color: #37474F;
     cursor: pointer;
     outline: 0;
     background: #FFFFFF;
-    border: 1px solid #CCD1D9;
+    border: 1px solid #CFD8DC;
     border-radius: 2px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -2819,7 +2819,7 @@ select {
     pointer-events: none;
     border-left: 0.5rem solid transparent;
     border-right: 0.5rem solid transparent;
-    border-top: 0.5rem solid #434A54; }
+    border-top: 0.5rem solid #37474F; }
 
 /*
  * Select Inverse
@@ -2827,7 +2827,7 @@ select {
 .select-inverse select {
   color: #FFFFFF;
   border: none;
-  background: #434A54; }
+  background: #37474F; }
 
 .select-inverse:after {
   border-top: 0.5rem solid #FFFFFF; }
@@ -2852,7 +2852,7 @@ select {
     content: '';
     pointer-events: none;
     width: 1em;
-    border: 1px solid #CCD1D9;
+    border: 1px solid #CFD8DC;
     border-width: 1px 1px 1px 0px;
     background: #FFFFFF;
     border-radius: 0 2px 2px 0;
@@ -2861,7 +2861,7 @@ select {
     width: 1.5em; }
   .select.select-inverse:before {
     border: none;
-    background: #434A54; } }
+    background: #37474F; } }
 
 /*
  * Definitions
@@ -3605,43 +3605,43 @@ select {
   color: #FFFFFF !important; }
 
 .text-light-grey {
-  color: #CCD1D9 !important; }
+  color: #CFD8DC !important; }
 
 .text-grey {
-  color: #656D78 !important; }
+  color: #546E7A !important; }
 
 .text-dark-grey {
-  color: #434A54 !important; }
+  color: #37474F !important; }
 
 .text-black {
   color: #000000 !important; }
 
 .text-error {
-  color: #E01A2E !important; }
+  color: #EF9A9A !important; }
 
 .text-warning {
-  color: #FFC200 !important; }
+  color: #FDD835 !important; }
 
 .text-success {
-  color: #05BE55 !important; }
+  color: #9CCC65 !important; }
 
 .text-info {
-  color: #149CFD !important; }
+  color: #4FC3F7 !important; }
 
 .text-primary {
-  color: #05BED5 !important; }
+  color: #FC6E51 !important; }
 
 .text-secondary {
-  color: #8D48AB !important; }
+  color: #5D9CEC !important; }
 
 .text-tertiary {
-  color: #B2347E !important; }
+  color: #967ADC !important; }
 
 .text-dark {
-  color: #434A54 !important; }
+  color: #37474F !important; }
 
 .text-light {
-  color: #E3E7EC !important; }
+  color: #ECEFF1 !important; }
 
 /*
  * Background
@@ -3653,43 +3653,43 @@ select {
   background: #FFFFFF !important; }
 
 .background-light-grey {
-  background: #CCD1D9 !important; }
+  background: #CFD8DC !important; }
 
 .background-grey {
-  background: #656D78 !important; }
+  background: #546E7A !important; }
 
 .background-dark-grey {
-  background: #434A54 !important; }
+  background: #37474F !important; }
 
 .background-black {
   background: #000000 !important; }
 
 .background-error {
-  background: #E01A2E !important; }
+  background: #EF9A9A !important; }
 
 .background-warning {
-  background: #FFC200 !important; }
+  background: #FDD835 !important; }
 
 .background-success {
-  background: #05BE55 !important; }
+  background: #9CCC65 !important; }
 
 .background-info {
-  background: #149CFD !important; }
+  background: #4FC3F7 !important; }
 
 .background-primary {
-  background: #05BED5 !important; }
+  background: #FC6E51 !important; }
 
 .background-secondary {
-  background: #8D48AB !important; }
+  background: #5D9CEC !important; }
 
 .background-tertiary {
-  background: #B2347E !important; }
+  background: #967ADC !important; }
 
 .background-dark {
-  background: #434A54 !important; }
+  background: #37474F !important; }
 
 .background-light {
-  background: #E3E7EC !important; }
+  background: #ECEFF1 !important; }
 
 /*
  * Accessibility
