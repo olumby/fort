@@ -8,6 +8,7 @@ $fieldset-padding: 2rem;
 $fieldset-border: 1px solid $grey;
 
 // Feildset Legend
+$fieldset-legend-margin: 0;
 $fieldset-legend-padding: 1rem;
 $fieldset-legend-font-size: $font-size-medium;
 $fieldset-legend-color: $grey;
@@ -26,8 +27,13 @@ fieldset {
 	legend {
 		display: inline-block;
 		width: auto;
+		margin: $fieldset-legend-margin;
 		padding: $fieldset-legend-padding;
 		@include font-size($fieldset-legend-font-size);
 		color: $fieldset-legend-color;
+
+		& + label {
+			margin-top: 0;
+		}
 	}
 }

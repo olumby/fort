@@ -2178,9 +2178,12 @@ fieldset {
   fieldset legend {
     display: inline-block;
     width: auto;
+    margin: 0;
     padding: 1rem;
     font-size: 1.4rem;
     color: #546E7A; }
+    fieldset legend + label {
+      margin-top: 0; }
 
 /*
  * Definitions

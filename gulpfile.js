@@ -11,7 +11,7 @@ gulp.task('build:css', function () {
     return gulp.src('fort/fort.scss')
         .pipe(plumber())
         .pipe(sourcemaps.init())
-        .pipe(sass())
+        .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./dist'));
 });
@@ -20,7 +20,7 @@ gulp.task('build:min', function() {
     return gulp.src('fort/fort.scss')
         .pipe(plumber())
         .pipe(sourcemaps.init())
-        .pipe(sass({outputStyle: 'compressed'}))
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename('fort.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./dist'));
