@@ -32,21 +32,21 @@ $form-message-info-color: $info;
 	
 	// Error
 	&.error {
-		color: $form-message-error-color;
+		color: darken($form-message-error-color, 10%);
 	}
 
 	// Warning
 	&.warning {
-		color: $form-message-warning-color;
+		color: darken($form-message-warning-color, 20%);
 	}
 	
 	// Success
 	&.success {
-		color: $form-message-success-color;
+		color: darken($form-message-success-color, 15%);
 	}
 	
 	// Info
 	&.info {
-		color: $form-message-info-color;
+		color: darken($form-message-info-color, 10%);
 	}
 }

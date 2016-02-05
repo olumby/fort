@@ -826,6 +826,38 @@ kbd {
   border: 1px solid #ECEFF1; }
 
 /*
+ * Definitions
+ */
+/*
+ * Text Message
+ */
+.alert {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  font-size: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #37474F;
+  line-height: 1.35;
+  border: 1px solid #37474F; }
+  .alert.error {
+    color: #e86e6e;
+    border: 1px solid #EF9A9A;
+    background: #fdf2f2; }
+  .alert.warning {
+    color: #caa502;
+    border: 1px solid #FDD835;
+    background: #fef0b3; }
+  .alert.success {
+    color: #76ac39;
+    border: 1px solid #9CCC65;
+    background: #daecc5; }
+  .alert.info {
+    color: #1eb2f5;
+    border: 1px solid #4FC3F7;
+    background: #c9edfd; }
+
+/*
  * Grid
  */
 /*
@@ -2199,13 +2231,13 @@ fieldset {
   color: #37474F;
   line-height: 1.35; }
   .form-message.error {
-    color: #EF9A9A; }
+    color: #e86e6e; }
   .form-message.warning {
-    color: #FDD835; }
+    color: #caa502; }
   .form-message.success {
-    color: #9CCC65; }
+    color: #76ac39; }
   .form-message.info {
-    color: #4FC3F7; }
+    color: #1eb2f5; }
 
 /*
  * Definitions

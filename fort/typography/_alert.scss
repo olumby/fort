@@ -1,0 +1,64 @@
+/*
+ * Definitions
+ */
+
+// Text Message
+$alert-margin: 1.5rem 0;
+$alert-padding: 1rem 1.5rem;
+$alert-font-family: $paragraph-font-family;
+$alert-font-weight: $paragraph-font-weight;
+$alert-font-size: 1.2;
+$alert-color: $body-color;
+$alert-line-height: $paragraph-line-height;
+$alert-border-color: $dark;
+
+// Text Message Indicators
+$alert-error-color: $error;
+$alert-warning-color: $warning;
+$alert-success-color: $success;
+$alert-info-color: $info;
+
+
+/*
+ * Text Message
+ */
+
+// Text Message
+.alert {
+    margin: $alert-margin;
+    padding: $alert-padding;
+    font-size: $alert-font-family;
+    font-weight: $alert-font-weight;
+    @include font-size($alert-font-size);
+    color: $alert-color;
+    line-height: $alert-line-height;
+    border: 1px solid $alert-border-color;
+    
+    // Error
+    &.error {
+        color: darken($alert-error-color, 10%);
+        border: 1px solid $alert-error-color;
+        background: lighten($alert-error-color, 20%);
+    }
+
+    // Warning
+    &.warning {
+        color: darken($alert-warning-color, 20%);
+        border: 1px solid $alert-warning-color;
+        background: lighten($alert-warning-color, 25%);
+    }
+    
+    // Success
+    &.success {
+        color: darken($alert-success-color, 15%);
+        border: 1px solid $alert-success-color;
+        background: lighten($alert-success-color, 25%);
+    }
+    
+    // Info
+    &.info {
+        color: darken($alert-info-color, 10%);
+        border: 1px solid $alert-info-color;
+        background: lighten($alert-info-color, 25%);
+    }
+}
