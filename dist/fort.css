@@ -804,7 +804,7 @@ pre {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #FCFCFE;
+  background: #ECEFF1;
   border: 1px solid #ECEFF1; }
   pre code {
     color: #37474F; }
@@ -822,7 +822,7 @@ kbd {
   font-weight: normal;
   font-size: 1.2rem;
   color: #967ADC;
-  background: #FCFCFE;
+  background: #ECEFF1;
   border: 1px solid #ECEFF1; }
 
 /*
