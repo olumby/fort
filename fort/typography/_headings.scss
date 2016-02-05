@@ -3,25 +3,25 @@
  */
 
 // Headings
-$headings-margin: 0 0 2rem 0;
-$headings-font-family: $medium-font-family;
-$headings-font-weight: $medium-font-weight;
-$headings-color: $body-color;
-$headings-line-height: $line-height-small;
+$headings-margin: 0 0 2rem 0 !default;
+$headings-font-family: $medium-font-family !default;
+$headings-font-weight: $medium-font-weight !default;
+$headings-color: $body-color !default;
+$headings-line-height: $line-height-small !default;
 
 // Headings Small
-$headings-small-font-family: $medium-font-family;
-$headings-small-font-weight: $medium-font-weight;
-$headings-small-size: 0.6em;
-$headings-small-color: $grey;
+$headings-small-font-family: $medium-font-family !default;
+$headings-small-font-weight: $medium-font-weight !default;
+$headings-small-size: 0.6em !default;
+$headings-small-color: $grey !default;
 
 // Heading Font Sizes
-$h1-font-size: 3.6;
-$h2-font-size: 2.8;
-$h3-font-size: 1.8;
-$h4-font-size: 1.6;
-$h5-font-size: 1.4;
-$h6-font-size: 1.2;
+$h1-font-size: 3.6 !default;
+$h2-font-size: 2.8 !default;
+$h3-font-size: 1.8 !default;
+$h4-font-size: 1.6 !default;
+$h5-font-size: 1.4 !default;
+$h6-font-size: 1.2 !default;
 
 
 /*

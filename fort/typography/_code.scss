@@ -3,10 +3,10 @@
  */
 
 // Code
-$code-font-family: $monospace-font-family;
-$code-font-weight: normal;
-$code-font-size: 1.2;
-$code-color: $tertiary;
+$code-font-family: $monospace-font-family !default;
+$code-font-weight: normal !default;
+$code-font-size: 1.2 !default;
+$code-color: $tertiary !default;
 
 
 /*

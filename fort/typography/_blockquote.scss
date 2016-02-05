@@ -3,26 +3,26 @@
  */
 
 // Blockquote
-$blockquote-margin: 3.5rem 0;
-$blockquote-padding: 0 3rem;
+$blockquote-margin: 3.5rem 0 !default;
+$blockquote-padding: 0 3rem !default;
 
 // Blockquote Quote
-$blockquote-quote-margin: 0;
-$blockquote-quote-font-family: $lead-font-family;
-$blockquote-quote-font-weight: $lead-font-weight;
-$blockquote-quote-font-size: $lead-font-size;
-$blockquote-quote-font-style: normal;
-$blockquote-quote-line-height: $line-height-medium;
-$blockquote-quote-color: $body-color;
+$blockquote-quote-margin: 0 !default;
+$blockquote-quote-font-family: $lead-font-family !default;
+$blockquote-quote-font-weight: $lead-font-weight !default;
+$blockquote-quote-font-size: $lead-font-size !default;
+$blockquote-quote-font-style: normal !default;
+$blockquote-quote-line-height: $line-height-medium !default;
+$blockquote-quote-color: $body-color !default;
 
 // Blockquote Cite
-$blockquote-cite-margin: 1rem 0;
-$blockquote-cite-font-family: $regular-font-family;
-$blockquote-cite-font-weight: $regular-font-family;
-$blockquote-cite-font-size: $font-size-medium;
-$blockquote-cite-font-style: normal;
-$blockquote-cite-color: $blockquote-quote-color;
-$blockquote-cite-text-align: right;
+$blockquote-cite-margin: 1rem 0 !default;
+$blockquote-cite-font-family: $regular-font-family !default;
+$blockquote-cite-font-weight: $regular-font-family !default;
+$blockquote-cite-font-size: $font-size-medium !default;
+$blockquote-cite-font-style: normal !default;
+$blockquote-cite-color: $blockquote-quote-color !default;
+$blockquote-cite-text-align: right !default;
 
 
 /*

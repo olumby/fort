@@ -3,21 +3,21 @@
  */
 
 // Screen Sizes
-$screen-xsmall: 480px;
+$screen-xsmall: 480px !default;
 
-$screen-small: 768px;
-$screen-small-min: $screen-small;
+$screen-small: 768px !default;
+$screen-small-min: $screen-small !default;
 
-$screen-medium: 1024px;
-$screen-medium-min: $screen-medium;
+$screen-medium: 1024px !default;
+$screen-medium-min: $screen-medium !default;
 
-$screen-large: 1280px;
-$screen-large-min: $screen-large;
+$screen-large: 1280px !default;
+$screen-large-min: $screen-large !default;
 
-$screen-xlarge: 1680px;
-$screen-xlarge-min: $screen-xlarge;
+$screen-xlarge: 1680px !default;
+$screen-xlarge-min: $screen-xlarge !default;
 
-$screen-xsmall-max: ($screen-small-min - 1);
-$screen-small-max: ($screen-medium-min - 1);
-$screen-medium-max: ($screen-large-min - 1);
-$screen-large-max: ($screen-xlarge-min - 1);
+$screen-xsmall-max: ($screen-small-min - 1) !default;
+$screen-small-max: ($screen-medium-min - 1) !default;
+$screen-medium-max: ($screen-large-min - 1) !default;
+$screen-large-max: ($screen-xlarge-min - 1) !default;

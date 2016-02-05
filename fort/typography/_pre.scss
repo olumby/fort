@@ -3,17 +3,17 @@
  */
 
 // Pre
-$pre-margin: 2rem 0;
-$pre-padding: 1rem;
-$pre-color: $body-color;
-$pre-tab-size: 4;
-$pre-hyphens: none;
-$pre-line-height: $line-height-medium;
-$pre-background: #FCFCFE;
-$pre-border: 1px solid $light;
+$pre-margin: 2rem 0 !default;
+$pre-padding: 1rem !default;
+$pre-color: $body-color !default;
+$pre-tab-size: 4 !default;
+$pre-hyphens: none !default;
+$pre-line-height: $line-height-medium !default;
+$pre-background: #FCFCFE !default;
+$pre-border: 1px solid $light !default;
 
 // Pre Code
-$pre-code-color: $body-color;
+$pre-code-color: $body-color !default;
 
 
 /*

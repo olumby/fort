@@ -3,29 +3,29 @@
  */
 
 // Button
-$button-padding: 1.2rem 1.6rem;
-$button-height: $height-medium;
-$button-font-family: $bold-font-family;
-$button-font-weight: $bold-font-weight;
-$button-font-size: 1.4;
-$button-color: $dark-grey;
-$button-line-height: 1;
-$button-text-align: center;
-$button-text-transform: none;
-$button-background: $white;
-$button-border: 1px solid $light-grey;
-$button-border-radius: $border-radius;
+$button-padding: 1.2rem 1.6rem !default;
+$button-height: $height-medium !default;
+$button-font-family: $bold-font-family !default;
+$button-font-weight: $bold-font-weight !default;
+$button-font-size: 1.4 !default;
+$button-color: $dark-grey !default;
+$button-line-height: 1 !default;
+$button-text-align: center !default;
+$button-text-transform: none !default;
+$button-background: $white !default;
+$button-border: 1px solid $light-grey !default;
+$button-border-radius: $border-radius !default;
 
 // Button Hover
-$button-hover-color: $dark-grey;
-$button-hover-background: darken($button-background, 10%);
-$button-hover-border: 1px solid darken($light-grey, 10%);
+$button-hover-color: $dark-grey !default;
+$button-hover-background: darken($button-background, 10%) !default;
+$button-hover-border: 1px solid darken($light-grey, 10%) !default;
 
 // Button Disabled
-$button-disabled-opacity: 0.5;
+$button-disabled-opacity: 0.5 !default;
 
 // Button Block
-$button-block-text-align: center;
+$button-block-text-align: center !default;
 
 
 /*

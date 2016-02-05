@@ -3,14 +3,14 @@
  */
 
 // Kbd
-$kbd-margin: 0 0.5rem;
-$kbd-padding: 0.4rem;
-$kbd-font-family: $code-font-family;
-$kbd-font-weight: $code-font-weight;
-$kbd-font-size: $code-font-size;
-$kbd-color: $code-color;
-$kbd-background: $pre-background;
-$kbd-border: $pre-border;
+$kbd-margin: 0 0.5rem !default;
+$kbd-padding: 0.4rem !default;
+$kbd-font-family: $code-font-family !default;
+$kbd-font-weight: $code-font-weight !default;
+$kbd-font-size: $code-font-size !default;
+$kbd-color: $code-color !default;
+$kbd-background: $pre-background !default;
+$kbd-border: $pre-border !default;
 
 
 /*

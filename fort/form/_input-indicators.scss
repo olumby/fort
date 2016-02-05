@@ -3,10 +3,10 @@
  */
 
 // Input Indicators
-$input-error-color: $error;
-$input-warning-color: $warning;
-$input-success-color: $success;
-$input-info-color: $info;
+$input-error-color: $error !default;
+$input-warning-color: $warning !default;
+$input-success-color: $success !default;
+$input-info-color: $info !default;
 
 
 /*

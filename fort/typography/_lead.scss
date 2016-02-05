@@ -3,12 +3,12 @@
  */
 
 // Lead
-$lead-margin: 0 0 2rem 0;
-$lead-font-family: $thin-font-family;
-$lead-font-weight: $thin-font-weight;
-$lead-font-size: 2;
-$lead-color: $body-color;
-$lead-line-height: $line-height-medium;
+$lead-margin: 0 0 2rem 0 !default;
+$lead-font-family: $thin-font-family !default;
+$lead-font-weight: $thin-font-weight !default;
+$lead-font-size: 2 !default;
+$lead-color: $body-color !default;
+$lead-line-height: $line-height-medium !default;
 
 
 /*

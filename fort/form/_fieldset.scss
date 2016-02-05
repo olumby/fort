@@ -3,15 +3,15 @@
  */
 
 // Fieldset
-$fieldset-margin: 0;
-$fieldset-padding: 2rem;
-$fieldset-border: 1px solid $grey;
+$fieldset-margin: 0 !default;
+$fieldset-padding: 2rem !default;
+$fieldset-border: 1px solid $grey !default;
 
 // Feildset Legend
-$fieldset-legend-margin: 0;
-$fieldset-legend-padding: 1rem;
-$fieldset-legend-font-size: $font-size-medium;
-$fieldset-legend-color: $grey;
+$fieldset-legend-margin: 0 !default;
+$fieldset-legend-padding: 1rem !default;
+$fieldset-legend-font-size: $font-size-medium !default;
+$fieldset-legend-color: $grey !default;
 
 
 /*

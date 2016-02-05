@@ -3,14 +3,14 @@
  */
 
 // Pullout
-$pullout-margin: $blockquote-margin;
-$pullout-padding: $blockquote-padding;
-$pullout-font-family: $blockquote-quote-font-family;
-$pullout-font-weight: $blockquote-quote-font-weight;
-$pullout-font-size: $blockquote-quote-font-size;
-$pullout-color: $blockquote-quote-color;
-$pullout-border: solid $primary;
-$pullout-border-width:  0 0 0 0.5rem;
+$pullout-margin: $blockquote-margin !default;
+$pullout-padding: $blockquote-padding !default;
+$pullout-font-family: $blockquote-quote-font-family !default;
+$pullout-font-weight: $blockquote-quote-font-weight !default;
+$pullout-font-size: $blockquote-quote-font-size !default;
+$pullout-color: $blockquote-quote-color !default;
+$pullout-border: solid $primary !default;
+$pullout-border-width:  0 0 0 0.5rem !default;
 
 
 /*

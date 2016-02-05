@@ -1,22 +1,22 @@
 //Shades
-$white: #FFFFFF;
-$black: #000000;
-$light-grey: #CFD8DC;
-$grey: #546E7A;
-$dark-grey: #37474F;
+$white: #FFFFFF !default;
+$black: #000000 !default;
+$light-grey: #CFD8DC !default;
+$grey: #546E7A !default;
+$dark-grey: #37474F !default;
 
 //Indicators
-$info: #4FC3F7;
-$error: #EF9A9A;
-$warning: #FDD835;
-$success: #9CCC65;
+$info: #4FC3F7 !default;
+$error: #EF9A9A !default;
+$warning: #FDD835 !default;
+$success: #9CCC65 !default;
 
 //Palette
-$light: #ECEFF1;
-$dark: $dark-grey;
-$primary: #FC6E51;
-$secondary: #5D9CEC;
-$tertiary: #967ADC;
+$light: #ECEFF1 !default;
+$dark: $dark-grey !default;
+$primary: #FC6E51 !default;
+$secondary: #5D9CEC !default;
+$tertiary: #967ADC !default;
 
 //Utility
-$inverse: $dark;
+$inverse: $dark !default;

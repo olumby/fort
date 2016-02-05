@@ -21,29 +21,29 @@ $transition-medium: 0.3s;
 $transition-slow: 0.5s;
 
 // Height
-$height-xlarge: 6.5rem;
-$height-large: 5rem;
-$height-medium: 4rem;
-$height-small: 3rem;
-$height-xsmall: 2rem;
+$height-xlarge: 6.5rem !default;
+$height-large: 5rem !default;
+$height-medium: 4rem !default;
+$height-small: 3rem !default;
+$height-xsmall: 2rem !default;
 
 // Margin
-$margin-xlarge: 10rem;
-$margin-large: 6.5rem;
-$margin-medium: 5rem;
-$margin-small: 3.5rem;
-$margin-xsmall: 2rem;
+$margin-xlarge: 10rem !default;
+$margin-large: 6.5rem !default;
+$margin-medium: 5rem !default;
+$margin-small: 3.5rem !default;
+$margin-xsmall: 2rem !default;
 
 // Padding
-$padding-xlarge: 10rem;
-$padding-large: 6.5rem;
-$padding-medium: 5rem;
-$padding-small: 3.5rem;
-$padding-xsmall: 2rem;
+$padding-xlarge: 10rem !default;
+$padding-large: 6.5rem !default;
+$padding-medium: 5rem !default;
+$padding-small: 3.5rem !default;
+$padding-xsmall: 2rem !default;
 
 // Max Width
-$max-width-xlarge: 1280px;
-$max-width-large: 1024px;
-$max-width-medium: 800px;
-$max-width-small: 600px;
-$max-width-xsmall: 450px;
+$max-width-xlarge: 1280px !default;
+$max-width-large: 1024px !default;
+$max-width-medium: 800px !default;
+$max-width-small: 600px !default;
+$max-width-xsmall: 450px !default;

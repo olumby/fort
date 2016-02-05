@@ -3,22 +3,22 @@
  */
 
 // Definition List
-$definition-list-margin: $list-margin;
-$definition-list-padding: 0;
+$definition-list-margin: $list-margin !default;
+$definition-list-padding: 0 !default;
 
 // Definition Term
-$definition-term-margin: 1rem 0;
-$definition-term-font-family: $semibold-font-family;
-$definition-term-font-weight: $semibold-font-weight;
-$definition-term-font-size: $font-size-medium;
-$definition-term-color: $paragraph-color;
+$definition-term-margin: 1rem 0 !default;
+$definition-term-font-family: $semibold-font-family !default;
+$definition-term-font-weight: $semibold-font-weight !default;
+$definition-term-font-size: $font-size-medium !default;
+$definition-term-color: $paragraph-color !default;
 
 // Definition Description
-$definition-description-margin: 0 0 2rem 0;
-$definition-description-font-family: $regular-font-family;
-$definition-description-font-weight: $regular-font-weight;
-$definition-description-font-size: $font-size-medium;
-$definition-description-color: $paragraph-color;
+$definition-description-margin: 0 0 2rem 0 !default;
+$definition-description-font-family: $regular-font-family !default;
+$definition-description-font-weight: $regular-font-weight !default;
+$definition-description-font-size: $font-size-medium !default;
+$definition-description-color: $paragraph-color !default;
 
 
 /*

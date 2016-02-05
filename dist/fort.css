@@ -1933,7 +1933,7 @@ button.info,
  * Button Sizes
  */
 .button-xlarge {
-  padding: 2rem rem;
+  padding: 2rem 3rem;
   height: 6.5rem;
   font-size: 1.8rem; }
 
@@ -2698,7 +2698,7 @@ textarea.info {
  */
 .input-group-button-xlarge > button,
 .input-group-button-xlarge > .button {
-  padding: 2rem rem;
+  padding: 2rem 3rem;
   height: 6.5rem;
   min-width: 6.5rem;
   font-size: 1.8rem; }

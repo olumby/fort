@@ -3,12 +3,12 @@
  */
 
 // Body
-$body-font-family: $regular-font-family;
-$body-font-weight: $regular-font-weight; 
-$body-color: $dark;
-$body-line-height: $line-height-medium;
-$body-letter-spacing: 0.02rem;
-$body-background: $white;
+$body-font-family: $regular-font-family !default;
+$body-font-weight: $regular-font-weight !default; 
+$body-color: $dark !default;
+$body-line-height: $line-height-medium !default;
+$body-letter-spacing: 0.02rem !default;
+$body-background: $white !default;
 
 
 

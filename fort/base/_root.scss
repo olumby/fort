@@ -3,12 +3,12 @@
  */
 
 // Root Size
-$root-size: 10px;
-$root-size-xlarge: $root-size;
-$root-size-large: $root-size;
-$root-size-medium: $root-size;
-$root-size-small: $root-size - 1;
-$root-size-xsmall: $root-size - 1;
+$root-size: 10px !default;
+$root-size-xlarge: $root-size !default;
+$root-size-large: $root-size !default;
+$root-size-medium: $root-size !default;
+$root-size-small: $root-size - 1 !default;
+$root-size-xsmall: $root-size - 1 !default;
 
 
 /*

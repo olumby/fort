@@ -3,48 +3,48 @@
  */
 
 // Button Inverse
-$button-inverse-color: $light;
-$button-inverse-background: $inverse;
-$button-inverse-border: 1px solid darken($inverse, 5%);
-$button-inverse-hover-color: $button-inverse-color;
-$button-inverse-hover-background: darken($button-inverse-background, 10%);
-$button-inverse-hover-border: 1px solid darken($inverse, 15%);
+$button-inverse-color: $light !default;
+$button-inverse-background: $inverse !default;
+$button-inverse-border: 1px solid darken($inverse, 5%) !default;
+$button-inverse-hover-color: $button-inverse-color !default;
+$button-inverse-hover-background: darken($button-inverse-background, 10%) !default;
+$button-inverse-hover-border: 1px solid darken($inverse, 15%) !default;
 
 // Button Primary
-$button-primary-color: $white;
-$button-primary-background: $primary;
-$button-primary-border: 1px solid darken($primary, 5%);
-$button-primary-hover-color: $button-primary-color;
-$button-primary-hover-background: darken($primary, 10%);
-$button-primary-hover-border: 1px solid darken($primary, 15%);
+$button-primary-color: $white !default;
+$button-primary-background: $primary !default;
+$button-primary-border: 1px solid darken($primary, 5%) !default;
+$button-primary-hover-color: $button-primary-color !default;
+$button-primary-hover-background: darken($primary, 10%) !default;
+$button-primary-hover-border: 1px solid darken($primary, 15%) !default;
 
 // Button Secondary
-$button-secondary-color: $white;
-$button-secondary-background: $secondary;
-$button-secondary-border: 1px solid darken($secondary, 5%);
-$button-secondary-hover-color: $button-secondary-color;
-$button-secondary-hover-background: darken($secondary, 10%);
-$button-secondary-hover-border: 1px solid darken($secondary, 15%);
+$button-secondary-color: $white !default;
+$button-secondary-background: $secondary !default;
+$button-secondary-border: 1px solid darken($secondary, 5%) !default;
+$button-secondary-hover-color: $button-secondary-color !default;
+$button-secondary-hover-background: darken($secondary, 10%) !default;
+$button-secondary-hover-border: 1px solid darken($secondary, 15%) !default;
 
 // Button Tertiary
-$button-tertiary-color: $white;
-$button-tertiary-background: $tertiary;
-$button-tertiary-border: 1px solid darken($tertiary, 5%);
-$button-tertiary-hover-color: $button-tertiary-color;
-$button-tertiary-hover-background: darken($tertiary, 10%);
-$button-tertiary-hover-border: 1px solid darken($tertiary, 5%);
+$button-tertiary-color: $white !default;
+$button-tertiary-background: $tertiary !default;
+$button-tertiary-border: 1px solid darken($tertiary, 5%) !default;
+$button-tertiary-hover-color: $button-tertiary-color !default;
+$button-tertiary-hover-background: darken($tertiary, 10%) !default;
+$button-tertiary-hover-border: 1px solid darken($tertiary, 5%) !default;
 
 // Button Border
-$button-border-color: $dark;
-$button-border-border: 1px solid $button-border-color;
-$button-border-background: transparent;
-$button-border-hover-color: $white;
-$button-border-hover-border: 1px solid $button-border-color;
-$button-border-hover-background: $button-border-color;
+$button-border-color: $dark !default;
+$button-border-border: 1px solid $button-border-color !default;
+$button-border-background: transparent !default;
+$button-border-hover-color: $white !default;
+$button-border-hover-border: 1px solid $button-border-color !default;
+$button-border-hover-background: $button-border-color !default;
 
 // Button Text
-$button-text-color: $dark;
-$button-text-hover-color: $primary;
+$button-text-color: $dark !default;
+$button-text-hover-color: $primary !default;
 
 
 /*

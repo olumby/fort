@@ -3,9 +3,9 @@
  */
 
 // Horizontal Rule
-$hr-margin: 3.5rem auto;
-$hr-height: 1px;
-$hr-background: $light-grey;
+$hr-margin: 3.5rem auto !default;
+$hr-height: 1px !default;
+$hr-background: $light-grey !default;
 
 
 /*

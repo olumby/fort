@@ -3,12 +3,12 @@
  */
 
 // Link
-$link-color: $primary;
-$link-text-decoration: none;
+$link-color: $primary !default;
+$link-text-decoration: none !default;
 
 // Link Hover
-$link-hover-color: $dark;
-$link-hover-decoration: underline;
+$link-hover-color: $dark !default;
+$link-hover-decoration: underline !default;
 
 
 /*

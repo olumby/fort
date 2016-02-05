@@ -3,37 +3,37 @@
  */
 
 // Control
-$control-margin: $input-margin;
-$control-padding: 0 0 0 1.5rem;
-$control-color: $input-color;
+$control-margin: $input-margin !default;
+$control-padding: 0 0 0 1.5rem !default;
+$control-color: $input-color !default;
 
 // Control Indicator
-$control-indicator-size: 1.6rem;
-$control-indicator-color: $primary;
-$control-indicator-background: $input-background;
-$control-indicator-border: $input-border;
+$control-indicator-size: 1.6rem !default;
+$control-indicator-color: $primary !default;
+$control-indicator-background: $input-background !default;
+$control-indicator-border: $input-border !default;
 
 // Control Label
-$control-label-margin: 0 0 0 1rem;
-$control-label-font-family: $input-font-family;
-$control-label-font-weight: $input-font-weight;
-$control-label-font-size: $label-font-size;
-$control-label-color: $input-color;
-$control-label-line-height: $input-line-height;
+$control-label-margin: 0 0 0 1rem !default;
+$control-label-font-family: $input-font-family !default;
+$control-label-font-weight: $input-font-weight !default;
+$control-label-font-size: $label-font-size !default;
+$control-label-color: $input-color !default;
+$control-label-line-height: $input-line-height !default;
 
 // Control Checked
-$control-indicator-checked-background: $primary;
-$control-indicator-checked-border: 1px solid $primary;
-$control-label-checked-color: $control-label-color;
+$control-indicator-checked-background: $primary !default;
+$control-indicator-checked-border: 1px solid $primary !default;
+$control-label-checked-color: $control-label-color !default;
 
 // Control Inline
-$control-inline-margin-right: 2rem;
+$control-inline-margin-right: 2rem !default;
 
 // Checkbox
-$checkbox-border-radius: none;
+$checkbox-border-radius: none !default;
 
 // Radio
-$radio-border-radius: 50%;
+$radio-border-radius: 50% !default;
 
 
 /*

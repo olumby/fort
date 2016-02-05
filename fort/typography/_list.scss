@@ -3,24 +3,24 @@
  */
 
 // List
-$list-margin: 2rem 0;
-$list-padding: 0;
+$list-margin: 2rem 0 !default;
+$list-padding: 0 !default;
 
 // Lists Item
-$list-item-margin: 1rem 0 1rem 2rem;
-$list-item-font-family: $paragraph-font-family;
-$list-item-font-weight: $paragraph-font-weight;
-$list-item-font-size: $paragraph-font-size;
-$list-item-color: $paragraph-color;
+$list-item-margin: 1rem 0 1rem 2rem !default;
+$list-item-font-family: $paragraph-font-family !default;
+$list-item-font-weight: $paragraph-font-weight !default;
+$list-item-font-size: $paragraph-font-size !default;
+$list-item-color: $paragraph-color !default;
 
 // Child List
-$child-list-margin: 1rem 0;
-$child-list-padding: 0;
-$child-list-item-margin: $list-item-margin;
+$child-list-margin: 1rem 0 !default;
+$child-list-padding: 0 !default;
+$child-list-item-margin: $list-item-margin !default;
 
 // Unordered List
-$unordered-list-icon: disc;
-$unordered-child-list-icon: disc;
+$unordered-list-icon: disc !default;
+$unordered-child-list-icon: disc !default;
 
 
 /*

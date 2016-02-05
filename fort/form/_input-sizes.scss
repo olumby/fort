@@ -3,29 +3,29 @@
  */
 
 // Input Extra Large
-$input-xlarge-padding: 0 3rem;
-$input-xlarge-height: $height-xlarge;
-$input-xlarge-font-size: $font-size-xlarge;
+$input-xlarge-padding: 0 3rem !default;
+$input-xlarge-height: $height-xlarge !default;
+$input-xlarge-font-size: $font-size-xlarge !default;
 
 // Input Large
-$input-large-padding: 0 2.5rem;
-$input-large-height: $height-large;
-$input-large-font-size: $font-size-large;
+$input-large-padding: 0 2.5rem !default;
+$input-large-height: $height-large !default;
+$input-large-font-size: $font-size-large !default;
 
 // Input Medium
-$input-medium-padding: 0 1.6rem;
-$input-medium-height: $input-height;
-$input-medium-font-size: $input-font-size;
+$input-medium-padding: 0 1.6rem !default;
+$input-medium-height: $input-height !default;
+$input-medium-font-size: $input-font-size !default;
 
 // Input Small
-$input-small-padding: 0 1.2rem;
-$input-small-height: $height-small;
-$input-small-font-size: $font-size-small;
+$input-small-padding: 0 1.2rem !default;
+$input-small-height: $height-small !default;
+$input-small-font-size: $font-size-small !default;
 
 // Input Extra Small
-$input-xsmall-padding: 0 0.8rem;
-$input-xsmall-height: $height-xsmall;
-$input-xsmall-font-size: $font-size-xsmall;
+$input-xsmall-padding: 0 0.8rem !default;
+$input-xsmall-height: $height-xsmall !default;
+$input-xsmall-font-size: $font-size-xsmall !default;
 
 
 /*

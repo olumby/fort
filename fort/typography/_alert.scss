@@ -3,20 +3,20 @@
  */
 
 // Text Message
-$alert-margin: 1.5rem 0;
-$alert-padding: 1rem 1.5rem;
-$alert-font-family: $paragraph-font-family;
-$alert-font-weight: $paragraph-font-weight;
-$alert-font-size: 1.2;
-$alert-color: $body-color;
-$alert-line-height: $paragraph-line-height;
-$alert-border-color: $dark;
+$alert-margin: 1.5rem 0 !default;
+$alert-padding: 1rem 1.5rem !default;
+$alert-font-family: $paragraph-font-family !default;
+$alert-font-weight: $paragraph-font-weight !default;
+$alert-font-size: 1.2 !default;
+$alert-color: $body-color !default;
+$alert-line-height: $paragraph-line-height !default;
+$alert-border-color: $dark !default;
 
 // Text Message Indicators
-$alert-error-color: $error;
-$alert-warning-color: $warning;
-$alert-success-color: $success;
-$alert-info-color: $info;
+$alert-error-color: $error !default;
+$alert-warning-color: $warning !default;
+$alert-success-color: $success !default;
+$alert-info-color: $info !default;
 
 
 /*

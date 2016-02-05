@@ -3,36 +3,36 @@
  */
 
 //Button Error
-$button-error-color: $white;
-$button-error-background: $error;
-$button-error-border: 1px solid darken($error, 15%);
-$button-error-hover-color: $button-error-color;
-$button-error-hover-background: darken($error, 15%);
-$button-error-hover-border: 1px solid darken($error, 25%);
+$button-error-color: $white !default;
+$button-error-background: $error !default;
+$button-error-border: 1px solid darken($error, 15%) !default;
+$button-error-hover-color: $button-error-color !default;
+$button-error-hover-background: darken($error, 15%) !default;
+$button-error-hover-border: 1px solid darken($error, 25%) !default;
 
 //Button Warning
-$button-warning-color: $white;
-$button-warning-background: $warning;
-$button-warning-border: 1px solid darken($warning, 15%);
-$button-warning-hover-color: $button-warning-color;
-$button-warning-hover-background: darken($warning, 15%);
-$button-warning-hover-border: 1px solid darken($warning, 20%);
+$button-warning-color: $white !default;
+$button-warning-background: $warning !default;
+$button-warning-border: 1px solid darken($warning, 15%) !default;
+$button-warning-hover-color: $button-warning-color !default;
+$button-warning-hover-background: darken($warning, 15%) !default;
+$button-warning-hover-border: 1px solid darken($warning, 20%) !default;
 
 //Button Success
-$button-success-color: $white;
-$button-success-background: $success;
-$button-success-border: 1px solid darken($success, 15%);
-$button-success-hover-color: $button-success-color;
-$button-success-hover-background: darken($success, 15%);
-$button-success-hover-border: 1px solid darken($success, 25%);
+$button-success-color: $white !default;
+$button-success-background: $success !default;
+$button-success-border: 1px solid darken($success, 15%) !default;
+$button-success-hover-color: $button-success-color !default;
+$button-success-hover-background: darken($success, 15%) !default;
+$button-success-hover-border: 1px solid darken($success, 25%) !default;
 
 //Button Info
-$button-info-color: $white;
-$button-info-background: $info;
-$button-info-border: 1px solid darken($button-info-background, 15%);
-$button-info-hover-color: $button-info-color;
-$button-info-hover-background: darken($button-info-background, 15%);
-$button-info-hover-border: 1px solid darken($info, 25%);
+$button-info-color: $white !default;
+$button-info-background: $info !default;
+$button-info-border: 1px solid darken($button-info-background, 15%) !default;
+$button-info-hover-color: $button-info-color !default;
+$button-info-hover-background: darken($button-info-background, 15%) !default;
+$button-info-hover-border: 1px solid darken($info, 25%) !default;
 
 
 /*

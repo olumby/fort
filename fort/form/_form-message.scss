@@ -3,18 +3,18 @@
  */
 
 // Form Message
-$form-message-margin: $label-margin;
-$form-message-font-family: $paragraph-font-family;
-$form-message-font-weight: $paragraph-font-weight;
-$form-message-font-size: 1.2;
-$form-message-color: $body-color;
-$form-message-line-height: $paragraph-line-height;
+$form-message-margin: $label-margin !default;
+$form-message-font-family: $paragraph-font-family !default;
+$form-message-font-weight: $paragraph-font-weight !default;
+$form-message-font-size: 1.2 !default;
+$form-message-color: $body-color !default;
+$form-message-line-height: $paragraph-line-height !default;
 
 // Form Message Indicators
-$form-message-error-color: $error;
-$form-message-warning-color: $warning;
-$form-message-success-color: $success;
-$form-message-info-color: $info;
+$form-message-error-color: $error !default;
+$form-message-warning-color: $warning !default;
+$form-message-success-color: $success !default;
+$form-message-info-color: $info !default;
 
 
 /*

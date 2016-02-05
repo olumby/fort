@@ -3,29 +3,29 @@
  */
 
 // Button Extra Large
-$button-xlarge-padding: 2rem rem;
-$button-xlarge-height: $height-xlarge;
-$button-xlarge-font-size: $font-size-xlarge;
+$button-xlarge-padding: 2rem 3rem !default;
+$button-xlarge-height: $height-xlarge !default;
+$button-xlarge-font-size: $font-size-xlarge !default;
 
 // Button Large
-$button-large-padding: 1.5rem 2.5rem;
-$button-large-height: $height-large;
-$button-large-font-size: $font-size-large;
+$button-large-padding: 1.5rem 2.5rem !default;
+$button-large-height: $height-large !default;
+$button-large-font-size: $font-size-large !default;
 
 // Button Medium
-$button-medium-padding: $button-padding;
-$button-medium-height: $button-height;
-$button-medium-font-size: $button-font-size;
+$button-medium-padding: $button-padding !default;
+$button-medium-height: $button-height !default;
+$button-medium-font-size: $button-font-size !default;
 
 // Button Small
-$button-small-padding: 0.8rem 1.2rem;
-$button-small-height: $height-small;
-$button-small-font-size: $font-size-small;
+$button-small-padding: 0.8rem 1.2rem !default;
+$button-small-height: $height-small !default;
+$button-small-font-size: $font-size-small !default;
 
 // Button Extra Small
-$button-xsmall-padding: 0.4rem 0.8rem;
-$button-xsmall-height: $height-xsmall;
-$button-xsmall-font-size: $font-size-xsmall;
+$button-xsmall-padding: 0.4rem 0.8rem !default;
+$button-xsmall-height: $height-xsmall !default;
+$button-xsmall-font-size: $font-size-xsmall !default;
 
 
 /*
