@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Fort</title>
+    <description>Fort is a frontend framework built with SCSS and originally ported from Turret by Scott de Jonge.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Feb 2016 20:10:01 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2016 20:10:01 +0100</lastBuildDate>
+    <link>http://fort.lumby.me/</link>
+    <atom:link href="http://fort.lumby.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Feb 2016 16:55:11 +0100</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2016 16:55:11 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Tue, 09 Feb 2016 20:07:16 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/02/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/02/09/welcome-to-jekyll.html</guid>
+        <link>http://fort.lumby.me/jekyll/update/2016/02/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://fort.lumby.me/jekyll/update/2016/02/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

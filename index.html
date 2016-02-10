@@ -1,23 +1,19 @@
 ---
-layout: default
+layout: landing
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="main">
+    <div class="container">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="150" viewBox="0 0 518 361">
+            <g stroke="none" fill="none" fill-rule="evenodd">
+                <path d="M44,7.10542736e-15 L44,37 L86,37 L86,0 L129,0 L129,37 L171,37 L171,7.10542736e-15 L214,7.10542736e-15 L214,96 L209,101 L171,132 L176.369194,182.993024 L337,182.993027 L342,132 L304,101 L299,96 L299,0 L342,0 L342,37 L384,37 L384,0 L427,0 L427,37 L469,37 L469,0 L512,0 L512,96 L507,101 L469,132 L483,295 L485,298 L518,298 L518,361 L1.81949645e-07,361 L-6.13908924e-12,298 L28,298 L30,295 L44,132 L6,101 L1,96 L1,7.10542736e-15 L44,7.10542736e-15 Z M230,269.498426 C230,253.206895 243.204018,240 259.5,240 C275.7924,240 289,253.202073 289,269.498426 L289,343 L230,343 L230,269.498426 Z" fill="#ffffff"></path>
+            </g>
+        </svg>
+        <h1>Fort <small> - A frontend framework</small></h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <a href="{{ "/docs/" | prepend: site.baseurl }}" class="button">Documentation</a> <a href="http://github.com/olumby/fort" class="button">GitHub</a>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    </div>
 </div>

@@ -3,51 +3,89 @@
 ---
 @charset "utf-8";
 
+a:not(.button):hover,
+a:not(.button):focus {
+    text-decoration: none;
+}
 
+header.site-header {
+    background: #2b303b;
+    padding: 20px;
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+    .site-title {
+        float: left;
+        font-size: 2rem;
+    }
+    .site-nav {
+        float: right;
+        font-size: 1.6rem;
+        margin-top: 0.4rem;
+        a {
+            margin-left: 15px;
+        }
+    }
+    a {
+        color: #ececec;
+        &:hover {
+            color: #fff;
+        }
     }
 }
 
+body#landing .main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px 0;
+    background: #2b303b;
+    text-align: center;
 
+    h1, small {
+        color: #fafafa;
+        font-weight: 300;
+        margin-top: 2rem;
+    }
+    h1 small {
+        font-size: 2rem;
+    }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+    .button {
+        background: #39404C;
+        color: #C0C5CE;
+        border: none;
+        &:hover {
+            background: #4F5B66;
+        }
+    }
+}
+
+body#docs {
+    header.site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+    }
+    main.documentation {
+        nav.sidebar {
+            position: fixed;
+            overflow-x: visible;
+            overflow-y: scroll;
+            top: 67px;
+            bottom: 0;
+            left: 0;
+            width: 200px;
+            z-index: 9;
+        }
+
+        .content {
+            margin-top: 67px;
+            margin-left: 200px;
+            clear: left;
+            .column {
+                height: 100%;
+            }
+        }
+    }
+}
