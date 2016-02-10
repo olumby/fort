@@ -85,6 +85,9 @@ body#docs main.documentation .content {
   margin-top: 67px;
   margin-left: 200px;
   clear: left; }
+  body#docs main.documentation .content section {
+    margin-top: -67px;
+    padding-top: 67px; }
   body#docs main.documentation .content .info, body#docs main.documentation .content .code {
     padding: 2rem; }
   body#docs main.documentation .content .code {

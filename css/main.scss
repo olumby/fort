@@ -121,6 +121,10 @@ body#docs {
             margin-top: 67px;
             margin-left: 200px;
             clear: left;
+            section {
+                margin-top: -67px;
+                padding-top: 67px;
+            }
             .info, .code {
                 padding: 2rem;
             }
