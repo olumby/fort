@@ -317,18 +317,14 @@
     content: "JSON";
 }
 
-.highlight.html .code:after {
-    content: 'HTML';
+.highlight code[data-lang=scss]:before {
+    content: "SCSS";
 }
 
-.highlight.js .code:after {
-    content: 'JS';
+.highlight code[data-lang=sass]:before {
+    content: "SASS";
 }
 
-.highlight.bash .code:after {
-    content: 'Shell';
-}
-
-.highlight.css .code:after {
-    content: 'CSS';
+.highlight code[data-lang=less]:before {
+    content: "LESS";
 }

@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="/css/fort.min.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://fort.lumby.me/docs/">
+    <link rel="canonical" href="http://fort.lumby.me/docs/grid/">
     <link rel="alternate" type="application/rss+xml" title="Fort" href="http://fort.lumby.me/feed.xml">
 </head>
 
@@ -76,36 +76,43 @@
             </nav>
 
             <div class="content">
-                <section class="" id="getting-started">
+                <section class="" id="grid">
     <div class="info column-1-2 column-small-1">
-        <h2>Getting Started</h2>
-        <p>If you are using the precompiled version of fort, download it and reference it in the head of your HTML.</p>
-        <p>If you are using the SCSS version of fort, download it, move the whole folder into your project and import it into your SCSS file.</p>
+        <h2>Grid</h2>
+        <p>A basic fort grid uses a container, multiple rows and multiple columns.</p>
+        <p>A container resizes itself depending on the screen size. A row breaks the grid onto a new row and a column splits the grid horizontally.</p>
+        <p>Columns use fractions for sizing, starting as <code>.column-1</code> as the largest and <code>.column-1-12</code> as the smallest. Fractions are available from halves to twelfths.</p>
     </div>
     <div class="code column-1-2 column-small-1">
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"path/to/fort.min.css"</span><span class="nt">&gt;</span></code></pre></figure>
-
-
-<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@import</span> <span class="s2">"/path/to/fort"</span><span class="p">;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column-1-2"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column-1-4"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column-1-4"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column-1-2"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column-1-2"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
     </div>
 </section>
-<section class="" id="customisation">
+
+<section class="" id="gutters">
     <div class="info column-1-2 column-small-1">
-        <h3>Customisation</h3>
-        <p>Nearly every setting in fort is set using variables, these can all be overwridden by setting them before you import fort into your SCSS file.</p>
-        <p>There are a set of default values, for example <code>$button-height</code> is set in <code>elements/_button.scss</code> which sets the base height for all buttons (xl,l,m,s,xs). You can then further customise by setting custom heights for each button size, using for example <code>$button-xsmall-height</code></p>
-        <p class="alert">Note: Default values and variable names can be found at the top of the fort scss files.</p>
+        <h3>Gutters</h3>
+        <p>Gutters provide padding around columns, the default gutter size can be set by overriding the <code>$gutter</code> variable or <code>$gutter-(breakpoint)</code> variables.</p>
+        <p>Gutters can be disabled on a column using the <code>.no-gutters</code> class.</p>
     </div>
     <div class="code column-1-2 column-small-1">
 
-<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Define variables
-</span><span class="nv">$button-height</span><span class="p">:</span> <span class="m">2rem</span><span class="p">;</span>
-<span class="nv">$button-xsmall-height</span><span class="p">:</span> <span class="m">1</span><span class="mi">.9rem</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$gutter</span><span class="p">:</span> <span class="m">2rem</span><span class="p">;</span>
+<span class="nv">$gutter-medium</span><span class="p">:</span> <span class="m">2</span><span class="mi">.2rem</span><span class="p">;</span></code></pre></figure>
 
-<span class="c1">// Import Fort
-</span><span class="k">@import</span> <span class="s2">"/path/to/fort"</span><span class="p">;</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column-1 no-gutter"</span><span class="nt">&gt;</span>No gutters<span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
     </div>
 </section>
