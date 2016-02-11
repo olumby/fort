@@ -22,7 +22,31 @@
     </header>
     
     <main class="documentation">
-        {{ content }}
+        <div class="main">
+            <nav class="sidebar">
+                <div class="scroll">
+                    <ul>
+                        <li><a href="#getting-started">Getting Started</a></li>
+                        <li>
+                            <a href="#">Grid</a>
+                            <ul>
+                                <li><a href="#">Hello</a></li>
+                                <li><a href="#">Hello</a></li>
+                                <li><a href="#">Hello</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">Elements</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Utilities</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
     </main>
 
 </body>
