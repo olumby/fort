@@ -105,6 +105,15 @@ body#docs main.documentation .content {
     background: #3a4150;
     min-height: 100%; }
 
+body#docs main.documentation .grid-demo .row {
+  margin: 1rem 0; }
+body#docs main.documentation .grid-demo [class*='column-'] .demo {
+  background: #4F5B66;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  color: #EBEFF5; }
+
 .highlight {
   background: #2b303b;
   color: #eff1f5;
