@@ -18,47 +18,65 @@ $grid-twelve: (value: 1/12, list: "1-12");
 
 $list: $grid-one $grid-half $grid-three $grid-four $grid-five $grid-six $grid-seven $grid-eight $grid-nine $grid-ten $grid-eleven $grid-twelve;
 
+$grid-column-prefix: 'column';
+$grid-column-seperator: '-';
+$grid-columns: 12;
+
+@for $i from 1 through $grid-columns {
+    @if $i == $grid-columns {
+        @for $i from 1 through ($grid-columns - 1) {
+            .#{$grid-column-prefix}#{$grid-column-seperator}#{$i}#{$grid-column-seperator}#{$grid-columns} {
+                width: decimal-round(percentage($i/$grid-columns), 4);
+            }
+        }
+    } @else {
+        .#{$grid-column-prefix}#{$grid-column-seperator}1#{$grid-column-seperator}#{$i} {
+            width: decimal-round(percentage(1/$i), 4);
+        }
+    }
+}
+
 /*
  * Columns
  */
 
 [class*='column-'] {
-	float: left;
-	position: relative;
-	min-height: 1px;
-	padding-left: $gutter;
-	padding-right: $gutter;
-	
-	&.column-center {
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: $gutter;
+    padding-right: $gutter;
+    
+    &.column-center {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-	@media #{$xlarge} {
-		padding-left: $gutter-xlarge;
-		padding-right: $gutter-xlarge;
-	}
+    @media #{$xlarge} {
+        padding-left: $gutter-xlarge;
+        padding-right: $gutter-xlarge;
+    }
 
-	@media #{$large} {
-		padding-left: $gutter-large;
-		padding-right: $gutter-large;
-	}
+    @media #{$large} {
+        padding-left: $gutter-large;
+        padding-right: $gutter-large;
+    }
 
-	@media #{$medium} {
-		padding-left: $gutter-medium;
-		padding-right: $gutter-medium;
-	}
-	
-	@media #{$small} {
-		padding-left: $gutter-small;
-		padding-right: $gutter-small;
-	}
+    @media #{$medium} {
+        padding-left: $gutter-medium;
+        padding-right: $gutter-medium;
+    }
+    
+    @media #{$small} {
+        padding-left: $gutter-small;
+        padding-right: $gutter-small;
+    }
 
-	@media #{$xsmall} {
-		padding-left: $gutter-xsmall;
-		padding-right: $gutter-xsmall;
-	}
+    @media #{$xsmall} {
+        padding-left: $gutter-xsmall;
+        padding-right: $gutter-xsmall;
+    }
 }
 
 @include columns('.column');
@@ -68,25 +86,25 @@ $list: $grid-one $grid-half $grid-three $grid-four $grid-five $grid-six $grid-se
  */
  
 @media #{$xlarge} {
-	@include columns('.column-xlarge');
+    @include columns('.column-xlarge');
 }
 
 @media #{$large} {
-	@include columns('.column-large');
+    @include columns('.column-large');
 }
 
 @media #{$medium} {
-	@include columns('.column-medium');
+    @include columns('.column-medium');
 }
 
 @media #{$small} {
-	@include columns('.column-small');
+    @include columns('.column-small');
 }
 
 @media #{$xsmall} {
-	[class*='column-'] {
-		width: 100%;
-	}
+    [class*='column-'] {
+        width: 100%;
+    }
 
-	@include columns('.column-xsmall');
+    @include columns('.column-xsmall');
 }
