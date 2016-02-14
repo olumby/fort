@@ -117,6 +117,11 @@ body#docs {
             }
         }
 
+        .example-content {
+            margin-top: 67px;
+            margin-left: 200px;
+            clear: left;
+        }
         .content {
             @media (min-width: 1024px) {
                 min-height: 100vh;
@@ -145,6 +150,21 @@ body#docs {
                 min-height: 100%;
             }
         }
+    }
+}
+
+body#docs main.documentation .example-content {
+    h3 {
+        margin: 35px 0px;
+    }
+    .demo {
+        margin: 10px 0px;
+        padding: 1rem;
+        background: #4F5B66;
+        border-radius: 5px;
+        text-align: center;
+        color: #DFE3EA;
+        font-size: 1.2rem;
     }
 }
 

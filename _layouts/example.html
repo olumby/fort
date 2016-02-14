@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body id="docs">
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+                <nav class="site-nav">
+                    {% for my_page in site.pages %}
+                        {% if my_page.title %}
+                            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                        {% endif %}
+                    {% endfor %}
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="documentation">
+        <div class="main">
+            <nav class="sidebar">
+                <div class="scroll">
+                    <ul>
+                        <li>
+                            <a href="/docs#getting-started">Getting Started</a>
+                            <ul>
+                                <li><a href="/docs#customisation">Customisation</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/docs/grid#grid">Grid</a>
+                            <ul>
+                                <li><a href="/docs/grid#gutters">Gutters</a></li>
+                                <li><a href="/docs/grid#responsive">Responsive</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">Elements</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Utilities</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="example-content">
+                {{ content }}
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
