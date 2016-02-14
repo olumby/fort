@@ -17,10 +17,6 @@ $root-size-xsmall: $root-size - 1 !default;
 
 :root {
   font-size: $root-size;
-
-  @media #{$xlarge} {
-      font-size: $root-size-xlarge;
-  }
   
   @media #{$large} {
       font-size: $root-size-large;
@@ -34,7 +30,7 @@ $root-size-xsmall: $root-size - 1 !default;
       font-size: $root-size-small;
   }
 
-  @media #{$xsmall} {
+  @media #{$mobile} {
       font-size: $root-size-xsmall;
   }
 }  

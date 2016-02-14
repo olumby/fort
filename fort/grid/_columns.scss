@@ -1,0 +1,90 @@
+/*
+ * Definitions
+ */
+
+// Grid
+$grid-column-prefix: 'column';
+$grid-offset-prefix: 'column-offset';
+$grid-push-prefix: 'column-push';
+$grid-pull-prefix: 'column-pull';
+$grid-seperator: '-';
+$grid-columns: 12;
+
+/*
+ * Columns
+ */
+
+[class*='column-'] {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: $gutter;
+    padding-right: $gutter;
+    
+    &.column-center {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media #{$large} {
+        padding-left: $gutter-large;
+        padding-right: $gutter-large;
+    }
+
+    @media #{$medium} {
+        padding-left: $gutter-medium;
+        padding-right: $gutter-medium;
+    }
+    
+    @media #{$small} {
+        padding-left: $gutter-small;
+        padding-right: $gutter-small;
+    }
+
+    @media #{$mobile} {
+        padding-left: $gutter-mobile;
+        padding-right: $gutter-mobile;
+    }
+}
+
+@include grid-columns($grid-columns, $grid-column-prefix, $grid-seperator);
+@include grid-offset($grid-columns, $grid-offset-prefix, $grid-seperator);
+@include grid-push($grid-columns, $grid-push-prefix, $grid-seperator);
+@include grid-pull($grid-columns, $grid-pull-prefix, $grid-seperator);
+
+/*
+ * Column Media Query Classes
+ */
+
+@media #{$large} {
+    @include grid-columns($grid-columns, "#{$grid-column-prefix}#{$grid-seperator}large", $grid-seperator);
+    @include grid-offset($grid-columns, "#{$grid-offset-prefix}#{$grid-seperator}large", $grid-seperator);
+    @include grid-push($grid-columns, "#{$grid-push-prefix}#{$grid-seperator}large", $grid-seperator);
+    @include grid-pull($grid-columns, "#{$grid-pull-prefix}#{$grid-seperator}large", $grid-seperator);
+}
+
+@media #{$medium} {
+    @include grid-columns($grid-columns, "#{$grid-column-prefix}#{$grid-seperator}medium", $grid-seperator);
+    @include grid-offset($grid-columns, "#{$grid-offset-prefix}#{$grid-seperator}medium", $grid-seperator);
+    @include grid-push($grid-columns, "#{$grid-push-prefix}#{$grid-seperator}medium", $grid-seperator);
+    @include grid-pull($grid-columns, "#{$grid-pull-prefix}#{$grid-seperator}medium", $grid-seperator);
+}
+
+@media #{$small} {
+    @include grid-columns($grid-columns, "#{$grid-column-prefix}#{$grid-seperator}small", $grid-seperator);
+    @include grid-offset($grid-columns, "#{$grid-offset-prefix}#{$grid-seperator}small", $grid-seperator);
+    @include grid-push($grid-columns, "#{$grid-push-prefix}#{$grid-seperator}small", $grid-seperator);
+    @include grid-pull($grid-columns, "#{$grid-pull-prefix}#{$grid-seperator}small", $grid-seperator);
+}
+
+@media #{$mobile} {
+    [class*='column-'] {
+        width: 100%;
+    }
+
+    @include grid-columns($grid-columns, "#{$grid-column-prefix}#{$grid-seperator}mobile", $grid-seperator);
+    @include grid-offset($grid-columns, "#{$grid-offset-prefix}#{$grid-seperator}mobile", $grid-seperator);
+    @include grid-push($grid-columns, "#{$grid-push-prefix}#{$grid-seperator}mobile", $grid-seperator);
+    @include grid-pull($grid-columns, "#{$grid-pull-prefix}#{$grid-seperator}mobile", $grid-seperator);
+}

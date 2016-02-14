@@ -4,11 +4,10 @@
 
 // Gutter
 $gutter: 1.5rem !default;
-$gutter-xlarge: $gutter !default;
 $gutter-large: $gutter !default;
 $gutter-medium: $gutter !default;
 $gutter-small: $gutter !default;
-$gutter-xsmall: $gutter !default;
+$gutter-mobile: $gutter !default;
 
 
 /*
@@ -33,29 +32,6 @@ $gutter-xsmall: $gutter !default;
 
 .gutter-right {
 	padding-right: $gutter !important;
-}
-
-@media #{$xlarge} {
-
-	.no-gutter-xlarge {
-		padding: 0 !important;
-	}
-	
-	.gutter-top {
-		padding-top: $gutter-xlarge !important;
-	}
-	
-	.gutter-bottom {
-		padding-bottom: $gutter-xlarge !important;
-	}
-	
-	.gutter-left {
-		padding-left: $gutter-xlarge !important;
-	}
-	
-	.gutter-right {
-		padding-right: $gutter-xlarge !important;
-	}
 }
 
 @media #{$large} {
@@ -127,25 +103,25 @@ $gutter-xsmall: $gutter !default;
 	}
 }
 
-@media #{$xsmall} {
+@media #{$mobile} {
 	
-	.no-gutter-xsmall {
+	.no-gutter-mobile {
 		padding: 0 !important;
 	}
 	
 	.gutter-top {
-		padding-top: $gutter-xsmall !important;
+		padding-top: $gutter-mobile !important;
 	}
 	
 	.gutter-bottom {
-		padding-bottom: $gutter-xsmall !important;
+		padding-bottom: $gutter-mobile !important;
 	}
 	
 	.gutter-left {
-		padding-left: $gutter-xsmall !important;
+		padding-left: $gutter-mobile !important;
 	}
 	
 	.gutter-right {
-		padding-right: $gutter-xsmall !important;
+		padding-right: $gutter-mobile !important;
 	}
 }

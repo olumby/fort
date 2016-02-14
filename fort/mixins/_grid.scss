@@ -2,37 +2,38 @@
  * Grid
  */
 
-// Loop
-@mixin grid-loop($property, $selector-prefix) {
-    @each $set in $list {
-        $selector: ();
-
-        @each $rule in map-get($set, list) {
-            $selector: append($selector, unquote("#{$selector-prefix}-#{$rule}"), comma);
-        }
-
-        #{$selector} {
-            #{$property}: decimal-round(percentage(map-get($set, value)), 4);
+@mixin grid-builder($total-columns, $prefix, $seperator, $property) {
+    @for $i from 1 through $total-columns {
+        @if $i == $total-columns {
+            @for $i from 1 through ($total-columns - 1) {
+                .#{$prefix}#{$seperator}#{$i}#{$seperator}#{$total-columns} {
+                    #{$property}: decimal-round(percentage($i/$total-columns), 4);
+                }
+            }
+        } @else {
+            .#{$prefix}#{$seperator}1#{$seperator}#{$i} {
+                #{$property}: decimal-round(percentage(1/$i), 4);
+            }
         }
     }
 }
 
 // Columns
-@mixin columns($selector-prefix: ".column") {
-    @include grid-loop(width, $selector-prefix)
+@mixin grid-columns($grid-columns, $grid-column-prefix, $grid-seperator) {
+    @include grid-builder($grid-columns, $grid-column-prefix, $grid-seperator, width)
 }
 
 // Offsets
-@mixin grid-offset($selector-prefix: ".column-offset") {
-    @include grid-loop(margin-left, $selector-prefix)
+@mixin grid-offset($grid-columns, $grid-offset-prefix, $grid-seperator) {
+    @include grid-builder($grid-columns, $grid-offset-prefix, $grid-seperator, margin-left)
 }
 
 // Pull
-@mixin grid-pull($selector-prefix: ".column-pull") {
-    @include grid-loop(right, $selector-prefix)
+@mixin grid-pull($grid-columns, $grid-pull-prefix, $grid-seperator) {
+    @include grid-builder($grid-columns, $grid-pull-prefix, $grid-seperator, right)
 }
 
 // Push
-@mixin grid-push($selector-prefix: ".column-push") {
-    @include grid-loop(left, $selector-prefix)
+@mixin grid-push($grid-columns, $grid-push-prefix, $grid-seperator) {
+    @include grid-builder($grid-columns, $grid-push-prefix, $grid-seperator, left)
 }

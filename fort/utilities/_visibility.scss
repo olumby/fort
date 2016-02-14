@@ -67,32 +67,10 @@
  * Hidden Breakpoints
  */
 
-// Hidden Extra Large
-.hidden-xlarge {
-
-	@media #{$xlarge} {
-		@include hide;
-	}
-}
-
 // Hidden Large
 .hidden-large {
 
 	@media #{$large} {
-		@include hide;
-	}
-}
-
-.hidden-large-up {
-
-	@media #{$large-up} {
-		@include hide;
-	}
-}
-
-.hidden-large-down {
-
-	@media #{$large-down} {
 		@include hide;
 	}
 }
@@ -141,10 +119,10 @@
 	}
 }
 
-// Hidden Extra Small
-.hidden-xsmall {
+// Hidden Mobile
+.hidden-mobile {
 
-	@media #{$xsmall} {
+	@media #{$mobile} {
 		@include hide;
 	}
 }
@@ -154,36 +132,11 @@
  * Visible Breakpoints
  */
 
-//Visible Extra Large
-.visible-xlarge {
-	@include hide;
-
-	@media #{$xlarge} {
-		@include show;
-	}
-}
-
 //Visible Large
 .visible-large {
 	@include hide;
 
 	@media #{$large} {
-		@include show;
-	}
-}
-
-.visible-large-up {
-	@include hide;
-
-	@media #{$large-up} {
-		@include show;
-	}
-}
-
-.visible-large-down {
-	@include hide;
-
-	@media #{$large-down} {
 		@include show;
 	}
 }
@@ -239,10 +192,10 @@
 }
 
 //Visible Extra Small
-.visible-xsmall {
+.visible-mobile {
 	@include hide;
 
-	@media #{$xsmall} {
+	@media #{$mobile} {
 		@include show;
 	}
 }

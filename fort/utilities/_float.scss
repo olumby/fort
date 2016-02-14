@@ -7,13 +7,6 @@
 	float: right !important;
 }
 
-.clear-right-xlarge {
-
-	@media #{$xlarge} {
-		float: none !important;
-	}
-}
-
 .clear-right-large {
 
 	@media #{$large} {
@@ -35,9 +28,9 @@
 	}
 }
 
-.clear-right-xsmall {
+.clear-right-mobile {
 
-	@media #{$xsmall} {
+	@media #{$mobile} {
 		float: none !important;
 	}
 }
@@ -45,13 +38,6 @@
 //Left
 .left {
 	float: left !important;
-}
-
-.clear-left-xlarge {
-
-	@media #{$xlarge} {
-		float: none !important;
-	}
 }
 
 .clear-left-large {
@@ -75,9 +61,9 @@
 	}
 }
 
-.clear-left-xsmall {
+.clear-left-mobile {
 	
-	@media #{$xsmall} {
+	@media #{$mobile} {
 		float: none !important;
 	}
 }

@@ -3,12 +3,10 @@
  */
 
 // Container
-$container-xsmall: 100% !default;
+$container-mobile: 100% !default;
 $container-small: 100% !default;
 $container-medium: 1024px !default;
 $container-large: 1280px !default;
-$container-xlarge: 1680px !default;
-
 
 /*
  * Container
@@ -19,12 +17,6 @@ $container-xlarge: 1680px !default;
 	margin: 0 auto;
 	width: 100%;
 	@include clearfix;
-
-	@media #{$xlarge} {
-		padding-left: $gutter-xlarge;
-		padding-right: $gutter-xlarge;
-		max-width: $container-xlarge;
-	}
 
 	@media #{$large} {
 		padding-left: $gutter-large;
@@ -44,9 +36,9 @@ $container-xlarge: 1680px !default;
 		max-width: $container-small;
 	}
 
-	@media #{$xsmall} {
-		padding-left: $gutter-xsmall;
-		padding-right: $gutter-xsmall;
-		max-width: $container-xsmall;
+	@media #{$mobile} {
+		padding-left: $gutter-mobile;
+		padding-right: $gutter-mobile;
+		max-width: $container-mobile;
 	}
 }
