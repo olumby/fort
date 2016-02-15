@@ -23,29 +23,7 @@
     
     <main class="documentation">
         <div class="main">
-            <nav class="sidebar">
-                <div class="scroll">
-                    <ul>
-                        <li>
-                            <a href="/docs#getting-started">Getting Started</a>
-                            <ul>
-                                <li><a href="/docs#customisation">Customisation</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/docs/grid#grid">Grid</a>
-                            <ul>
-                                <li><a href="/docs/grid#gutters">Gutters</a></li>
-                                <li><a href="/docs/grid#responsive">Responsive</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Typography</a></li>
-                        <li><a href="#">Elements</a></li>
-                        <li><a href="#">Components</a></li>
-                        <li><a href="#">Utilities</a></li>
-                    </ul>
-                </div>
-            </nav>
+            {% include docs-nav.html %}
 
             <div class="example-content">
                 {{ content }}
