@@ -571,7 +571,8 @@ h6, .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #37474F;
-  line-height: 1.2; }
+  line-height: 1.2;
+  display: block; }
 
 h1 small, .h1 small,
 h2 small, .h2 small,
