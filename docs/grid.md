@@ -72,6 +72,7 @@ $gutter-medium: 2.2rem;
         <h3>Responsive</h3>
         <p>Separate grids exist for four breakpoints (mobile, small, medium and large). These breakpoints allow you to change the behavior of a column depending on the size of the screen.</p>
         <p>For example four divs with the classes <code>.column-1-4.column-medium-1-2.column-small-1</code> will appear as 4 columns on large screens, 2 columns on medium sized screens and 1 column on small screens.</p>
+        <p>By default all columns become full width at the mobile breakpoint. This can easily be overwridden with the <code>.column-mobile-x-y</code> classs.</p>
     </div>
     <div class="code column-1-2 column-small-1">
 {% highlight html %}
@@ -84,8 +85,8 @@ $gutter-medium: 2.2rem;
             <div class="row">
                 <div class="column-1-4 column-medium-1-2 column-small-1"><div class="demo">...</div></div>
                 <div class="column-1-4 column-medium-1-2 column-small-1"><div class="demo">...</div></div>
-                <div class="column-1-4 column-medium-1-2 column-small-1"><div class="demo">...</div></div>
-                <div class="column-1-4 column-medium-1-2 column-small-1"><div class="demo">...</div></div>
+                <div class="column-1-4 column-medium-1-2 column-small-1 column-mobile-1-2"><div class="demo">...</div></div>
+                <div class="column-1-4 column-medium-1-2 column-small-1 column-mobile-1-2"><div class="demo">...</div></div>
             </div>
         </div>
     </div>
