@@ -79,7 +79,7 @@ Save Page As.. <kbd>⌘</kbd> + <kbd>S</kbd>
 
 <section id="alerts">
     <div class="info column-1-2 column-small-1">
-        <h3>Blocks</h3>
+        <h3>Alerts</h3>
         <p>Alert messages can be shown using the <code>.alert</code> class, error, info, success and warning alerts exist.</p>
         <p class="alert">Unstyled alert message</p>
         <p class="alert error">Error styled alert message</p>
