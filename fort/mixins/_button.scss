@@ -30,6 +30,7 @@
 	&:not(:disabled):hover,
 	&:not(:disabled):focus {
 		@include button-styles($hover-color, $hover-background, $hover-border);
+		text-decoration: none;
 	}
 }
 

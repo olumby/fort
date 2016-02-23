@@ -2055,7 +2055,8 @@ button,
   .button:not(:disabled):focus {
     color: #2B303B;
     background: #e6e6e6;
-    border: 1px solid #b3b3b3; }
+    border: 1px solid #b3b3b3;
+    text-decoration: none; }
 
 button:disabled {
   cursor: no-drop;
@@ -2089,7 +2090,8 @@ button:disabled {
   .button-inverse:not(:disabled):hover, .button-inverse:not(:disabled):focus {
     color: #ECEFF1;
     background: #16181e;
-    border: 1px solid #0b0c0f; }
+    border: 1px solid #0b0c0f;
+    text-decoration: none; }
 
 .button-text {
   color: #2B303B;
@@ -2098,7 +2100,8 @@ button:disabled {
   .button-text:not(:disabled):hover, .button-text:not(:disabled):focus {
     color: #bf616a;
     background: transparent;
-    border: none; }
+    border: none;
+    text-decoration: none; }
 
 .button-primary {
   color: #FFFFFF;
@@ -2107,7 +2110,8 @@ button:disabled {
   .button-primary:not(:disabled):hover, .button-primary:not(:disabled):focus {
     color: #FFFFFF;
     background: #a9444e;
-    border: 1px solid #973d46; }
+    border: 1px solid #973d46;
+    text-decoration: none; }
 
 .button-secondary {
   color: #FFFFFF;
@@ -2116,7 +2120,8 @@ button:disabled {
   .button-secondary:not(:disabled):hover, .button-secondary:not(:disabled):focus {
     color: #FFFFFF;
     background: #2f80e7;
-    border: 1px solid #1b72e2; }
+    border: 1px solid #1b72e2;
+    text-decoration: none; }
 
 .button-tertiary {
   color: #FFFFFF;
@@ -2125,7 +2130,8 @@ button:disabled {
   .button-tertiary:not(:disabled):hover, .button-tertiary:not(:disabled):focus {
     color: #FFFFFF;
     background: #89ac6b;
-    border: 1px solid #96b57c; }
+    border: 1px solid #96b57c;
+    text-decoration: none; }
 
 .button-border {
   color: #2B303B;
@@ -2134,7 +2140,8 @@ button:disabled {
   .button-border:not(:disabled):hover, .button-border:not(:disabled):focus {
     color: #FFFFFF;
     background: #2B303B;
-    border: 1px solid #2B303B; }
+    border: 1px solid #2B303B;
+    text-decoration: none; }
 
 /*
  * Definitions
@@ -2152,7 +2159,8 @@ button.error,
   .button.error:not(:disabled):focus {
     color: #FFFFFF;
     background: #e55858;
-    border: 1px solid #de2c2c; }
+    border: 1px solid #de2c2c;
+    text-decoration: none; }
 
 button.warning,
 .button.warning {
@@ -2164,7 +2172,8 @@ button.warning,
   .button.warning:not(:disabled):focus {
     color: #FFFFFF;
     background: #e3ba02;
-    border: 1px solid #caa502; }
+    border: 1px solid #caa502;
+    text-decoration: none; }
 
 button.success,
 .button.success {
@@ -2176,7 +2185,8 @@ button.success,
   .button.success:not(:disabled):focus {
     color: #FFFFFF;
     background: #76ac39;
-    border: 1px solid #5c852c; }
+    border: 1px solid #5c852c;
+    text-decoration: none; }
 
 button.info,
 .button.info {
@@ -2188,7 +2198,8 @@ button.info,
   .button.info:not(:disabled):focus {
     color: #FFFFFF;
     background: #0ba8ef;
-    border: 1px solid #0986be; }
+    border: 1px solid #0986be;
+    text-decoration: none; }
 
 /*
  * Definitions
