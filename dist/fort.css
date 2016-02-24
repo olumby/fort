@@ -2056,7 +2056,8 @@ button,
     color: #2B303B;
     background: #e6e6e6;
     border: 1px solid #b3b3b3;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 button:disabled {
   cursor: no-drop;
@@ -2091,7 +2092,8 @@ button:disabled {
     color: #ECEFF1;
     background: #16181e;
     border: 1px solid #0b0c0f;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 .button-text {
   color: #2B303B;
@@ -2101,7 +2103,8 @@ button:disabled {
     color: #bf616a;
     background: transparent;
     border: none;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 .button-primary {
   color: #FFFFFF;
@@ -2111,7 +2114,8 @@ button:disabled {
     color: #FFFFFF;
     background: #a9444e;
     border: 1px solid #973d46;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 .button-secondary {
   color: #FFFFFF;
@@ -2121,7 +2125,8 @@ button:disabled {
     color: #FFFFFF;
     background: #2f80e7;
     border: 1px solid #1b72e2;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 .button-tertiary {
   color: #FFFFFF;
@@ -2131,7 +2136,8 @@ button:disabled {
     color: #FFFFFF;
     background: #89ac6b;
     border: 1px solid #96b57c;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 .button-border {
   color: #2B303B;
@@ -2141,7 +2147,8 @@ button:disabled {
     color: #FFFFFF;
     background: #2B303B;
     border: 1px solid #2B303B;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 /*
  * Definitions
@@ -2160,7 +2167,8 @@ button.error,
     color: #FFFFFF;
     background: #e55858;
     border: 1px solid #de2c2c;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 button.warning,
 .button.warning {
@@ -2173,7 +2181,8 @@ button.warning,
     color: #FFFFFF;
     background: #e3ba02;
     border: 1px solid #caa502;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 button.success,
 .button.success {
@@ -2186,7 +2195,8 @@ button.success,
     color: #FFFFFF;
     background: #76ac39;
     border: 1px solid #5c852c;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 button.info,
 .button.info {
@@ -2199,7 +2209,8 @@ button.info,
     color: #FFFFFF;
     background: #0ba8ef;
     border: 1px solid #0986be;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: 0; }
 
 /*
  * Definitions

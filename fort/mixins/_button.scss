@@ -31,6 +31,7 @@
 	&:not(:disabled):focus {
 		@include button-styles($hover-color, $hover-background, $hover-border);
 		text-decoration: none;
+		outline: 0;
 	}
 }
 
